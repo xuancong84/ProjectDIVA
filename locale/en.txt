@@ -1,0 +1,136 @@
+English
+Window Size:
+Volume:
+Cannot locate\ngame file\nCannot play
+Choose songs to play,\npreview PV or Demo
+Search for newest version song packages\nat Diva Online Map Wiki\nClick to goto the Wiki page
+In Diva OL, you can play with\nother players through the Internet\nClick for details
+Config keyboard layout,\nwindow size and sound volume
+View Miku's pictures and\nphoto album
+Show Game Manual\nhttp://www.gamemastercn.com\nCopyright belongs to SEGA
+Quit Game
+Available window sizes:
+\nChange the volume\nof sound effects\nPress <Enter> to hear hit sound
+\n\nReset all settings to default
+PAUSE
+CONTINUE
+RESTART
+BACK TO MENU
+List is Empty
+Custom Game
+Custom Game (empty list)
+Career Mode (not available)
+Multiplayer Mode (not available)
+Settings
+CG Preview
+Game Help
+Exit Game
+MENU
+Author
+Easy
+Normal
+Hard
+Extra
+Die
+Star
+Difficulty:%s\nStar Level:%d Star\n\nBest score:%.7d\nCombo Max:%.4d\nBest result:%s\n# Times Passed:%d
+(Full Screen)
+RETRY
+RETURN
+Reset to Default
+
+Language:
+English
+Particle Effect:
+Change displayed language:
+Change particle system:\n0: no particle (fastest)\n1: single tail (fast)\n2: double tail (normal)\n3: comet tail (slowest)
+Press <Enter> to change\n\n[Holding down multiple keys\nto map multiple keys\nto the same key]
+Times New Roman
+Courier New
+Arial
+(N/A)
+Misstake
+Cheap
+Standard
+Great
+Perfect
+Times New Roman
+OFF
+LOW
+MEDIUM
+HIGH
+Global keyboard hook failed, high-precision keyboard input capture is not available.\r\nIf a firewall notice has pop up, please allow!
+Key Capture
+Show FPS
+Enabled
+Disabled
+OFF
+ON
+ON(OSD)
+Show FPS\n(Frames per second)\n1. Don't show\n2. Show on window title\n3. On-screen display
+\n\n0: Normal key input WM_KEYDOWN\n1: Global Keyhook WH_KEYBOARD_LL\n2: Use DirectInput
+CurrFPS=%.2f, AvgFPS=%.2f
+Failed
+Auto Pause
+Never
+PlayOnly
+Always
+Auto pause method:\n1. Never pause\n2. In play-mode only\n3. Alway pause
+Video Quality
+Convert video from MP4 to AVI\nto save CPU\n0: MP4 (no conversion)\n1: highest quality AVI\n9: lowest quality AVI
+Game UI
+\nChoose UI skin:\nSee gamedata*.txt\nCurrent Range: 1~5\nTurn on <CapsLock> to preview
+AVI Resolution：\n1~3：1024x576\n4~6：640x360\n7~9：480x270
+Custom
+Please press ↑↓←→△×□○ in sequence
+Press <ESC> to cancel, <Backspace> to previous key
+Press <Enter> to confirm, press <ESC> to cancel
+Font
+Change UI Font:
+Space
+ or 
+Antialiasing
+Anti-aliasing mode:\n0: (OFF) software draw strip (SLOWEST)\n1: (ON) hardware lowest (fastest)\n...\nN: (ON) hardware highest (slowest)\n\nCurrent option:\n
+Judgement
+Standard
+Strict
+Scoring key method:\nStandard: wrongly pressed key\nWILL NOT cancel the next note\nStrict: wrongly pressed key\nWILL cancel the next note\nif within time frame
+(OFF)\nVery slow in drawing long strips
+Note Delay Adjust
+Keyboard Delay Compensation
+DelayCompen
+\nKeyboard Delay Compensation\nUnit: in milliseconds\nDoes NOT affect key sound delay\nPress F5/F6 during game does same
+1. During game, turn on CapsLock to prevent 'death'. However, once HP has gone below 0, HP gauge will turn black, final result will always be 'MISTAKE'\n2. During game, press F1~F4 to adjust and save note delay to the current map (see calibration.inf in that song's folder), press F5/F6 to adjust and save keyboard delay compensation, press PageUp/PageDown to adjust and save the volume of the current song\n3. Press +/- to adjust music tempo (maintain the same pitch), press F11/F12 to adjust music pitch (maintain the same tempo), press F7/F8 to adjust the speed of tail movement\n4. When PitchShiftDSP is disabled, the pitch cannot be changed independently from the tempo, (only the sampling rate is changed), but the music latency/delay is minimal\n5. To change the song folder address, add the following line to config.ini, songPath = [my_song_folder_path]\\n6. The song folder may contain sub-folders now so that you can reorganize your collection of songs\n7. Click on the progress bar to seek track to that position, press <Tab> to seek track to previous seek-track position; however, doing so will result in 'MISTAKE' for the final score
+Game Help
+Volume
+Play Speed
+Tail Speed
+Keep Pitch
+Maintain the same pitch\nwhen playback speed changes\n\nMay cause music delay\non slow computers
+Pitch
+Tempo
+Semitone(s)
+SoundSystem
+Change sound system:\nFMOD has better temporal accuracy\n pitch-shift ratio cannot exceed 2\nBASS has wider pitch-shift ratio\n but poorer temporal accuracy
+DIVA's cube
+Help:\nF2: blink displaced cubes\nF4: shuffle\nF5: reset cube\n1~9: highlight Nth outermost cube\n~: cancel highlight\nBackspace/Left: Previous Move\nRight: Next Move\n+/=: highlight outer layer\n-/_: highlight inner layer\nPageUp: rotate faster\nPageDown: rotate slower
+Order (NxNxN):
+Dim Distant Cubes
+Draw Mode
+Rollback to initial
+Solve by orbit formula
+fast
+accurate
+OK/Reset
+Save
+Load
+Shuffle
+Solved! Congratulations!
+Goto History
+Directional
+Solid
+This video is not supported by the current video decoder, click 'YES' to install decoder, click 'NO' to convert this video, click 'Cancel' to continue the game without video.
+Failed to load the audio file!
+Keyboard Style:
+DIVA Media Player
+Play Audio/Video Media\nCan change speed, pitch\nDIVA's Music Visualization

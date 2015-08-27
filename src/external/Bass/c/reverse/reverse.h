@@ -1,0 +1,9 @@
+#define ID_OPEN			10
+#define IDC_STATIC		-1
+#define IDC_STEMPO		100
+#define IDC_SPOS              	101
+#define IDC_POS               	102
+#define IDC_TEMPO             	103
+#define IDC_VOLUME		104
+#define IDC_VSRVB		105
+#define IDC_BTNDIR		106

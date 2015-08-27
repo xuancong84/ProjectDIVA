@@ -1,0 +1,134 @@
+Nederlands
+Venster Grootte:
+Volume:
+Kan niet vinden\ngame file\nKan niet spelen
+Kies nummers te spelen,\npreview-PV of Demo
+Zoeken naar nieuwste versie lied pakketten\nbij Diva Online Kaart Wiki\nKlik om goto de Wiki pagina
+In Diva OL, kun je spelen met\nandere spelers via het internet\nKlik voor meer informatie
+Config toetsenbordindeling,\nvenster grootte en geluidsvolume
+Bekijk Miku&#39;s foto&#39;s en\nfoto album
+Show Game Manual\nhttp://www.gamemastercn.com\nCopyright behoort tot SEGA
+Quit Game
+Beschikbare venster maten:
+\nHet volume te wijzigen\ngeluidseffecten\nDruk op &lt;Enter&gt; om te horen hit geluid
+\n\nReset alle instellingen op standaard
+PAUZE
+VERDER
+HERSTART
+TERUG NAAR MENU
+Lijst is leeg
+Custom Game
+Custom Game (lege lijst)
+Career Mode (niet beschikbaar)
+Multiplayer-modus (niet beschikbaar)
+Instellingen
+CG Voorbeeld
+Game Help
+Exit Game
+MENU
+Auteur
+Makkelijk
+Normaal
+Hard
+Extra
+Sterven
+Ster
+Moeilijkheidsgraad:%s\nStar Level:%d \n\nBeste score:%.7d\nCombo Max:%.4d\nBeste resultaat:%s\nd>%d
+(Volledig Scherm)
+RETRY
+RETURN
+Reset to Default
+
+Taal:
+Engels
+Particle Effect:
+Verander weergegeven taal:\n
+Verander particle systeem:\n0: geen deeltje (snelste)\n1: enkele staart (snel)\n2: dubbele staart (normaal)\n3: komeet staart (langzaamste)
+Druk op &lt;Enter&gt; om te veranderen\n\n[Ingedrukt houden van meerdere toetsen\nom meerdere sleutels in kaart\nop dezelfde toets]
+Times New Roman
+Courier New
+Arial
+(N / A)
+Misstake
+Goedkoop
+Standaard
+Groot
+Perfect
+Times New Roman
+OFF
+LOW
+MEDIUM
+HIGH
+Global toetsenbord haak mislukte, hoge precisie-toetsenbord capture is niet beschikbaar.\r\nAls een bericht firewall heeft opduiken, staat u!
+Key Capture
+Show FPS
+Ingeschakeld
+Invalide
+OFF
+ON
+ON (OSD)
+Show FPS\n(Frames per seconde)\n1. niet meer tonen\n2. Toon op de titel van het venster\n3. On-screen display
+\n\n0: Normaal belangrijke input WM_KEYDOWN\n1: Global Keyhook WH_KEYBOARD_LL\n2: Gebruik DirectInput
+CurrFPS =%.2f, AvgFPS =%.2f
+Mislukt
+Auto Pause
+Nooit
+Af te spelenOnly
+Altijd
+Auto pauze methode:\n1. Nooit pause\n2. In slechts play-modus\n3. Alway pause
+Video Quality
+Omzetten video van MP4 naar AVI\nom de CPU te redden\n0: MP4 (geen conversie)\n1: de hoogste kwaliteit AVI\n9: laagste kwaliteit AVI
+Game UI
+\nKies UI huid:\nZie gamedata * .txt\nHuidige Range: 1 ~ 5\nZet &lt;CapsLock&gt; om een ​​voorbeeld
+AVI Resolutie:\n1 ~ 3: 1024x576\n4 ~ 6: 640x360\n7 ~ 9: 480x270
+Gewoonte
+Drukt u op ↑ ↓ ← → △ × □ ○ in de juiste volgorde
+Druk op &lt;ESC&gt; te annuleren, &lt;Backspace&gt; naar de vorige sleutel
+Druk op &lt;Enter&gt; om te bevestigen, drukt u op &lt;ESC&gt; om te annuleren
+Doopvont
+\nWijzig UI Font:\nTimes New Roman\nCourier New\nArial
+Ruimte
+of
+Antialiasing
+Anti-aliasing-modus:\n0: (UIT) software draw strip (LANGZAAMSTE)\n1: (ON) hardware laagste (snelste)\n...\nN: (ON) hardware hoogste (langzaamste)\n\nHuidige optie:\n
+Oordeel
+Standaard
+Streng
+Scoren key methode:\nStandard: ten onrechte gedrukt key\nZal de volgende noot NIET annuleren\nStrikte: ten onrechte gedrukt key\nZal de volgende noot te annuleren\nindien binnen tijdsbestek
+(UIT)\nZeer traag bij het opstellen lange stroken
+Note Delay Adjust
+Keyboard Delay Compensatie
+DelayCompen
+\nKeyboard Delay Compensatie\nEenheid: in milliseconden\nHeeft geen invloed op de belangrijkste sound vertraging\nDruk op F5 / F6 tijdens het spel doet hetzelfde
+1. Tijdens het spel, zet CapsLock om &#39;dood&#39; te voorkomen. Echter, zodra HP onder 0 is gegaan, HP gauge zal zwart, eindresultaat draai zal altijd &#39;vergissing&#39;\n2. Tijdens het spel, druk op F1 ~ F4 aan te passen en op te slaan noot vertraging van de huidige kaart (zie calibration.inf in de map van dat nummer), drukt u op F5 / F6 aan te passen en op te slaan toetsenbord vertragingscompensatie, drukt PageUp / PageDown aan te passen en op te slaan het volume van het huidige nummer\n3. Druk / - naar muziek tempo (dezelfde toonhoogte te behouden), drukt u op F11 / F12 aan te passen aan de muziek toonhoogte (hetzelfde tempo te behouden), druk op F7 / F8 aanpassen aan de snelheid van de staart van de beweging aan te passen\n4. Wanneer PitchShiftDSP is uitgeschakeld, de toonhoogte kan niet onafhankelijk worden veranderd van het tempo (alleen de sampling rate is gewijzigd), maar de muziek latentie / vertraging is minimaal\n5. Om de map lied adres te wijzigen, voeg de volgende regel toe aan config.ini, songPath = [my_song_folder_path] \\n6. De map lied kan sub-mappen bevatten nu, zodat u uw verzameling songs kan reorganiseren\n7. Klik op de voortgangsbalk om spoor te zoeken naar die positie, druk op &lt;Tab&gt; om spoor naar vorige zoeken track positie te zoeken; echter doen zal resulteren in &#39;FOUT&#39; voor de eindscore
+Game Help
+Volume
+Speel Speed
+Staart Speed
+Houd Pitch
+Handhaaf dezelfde toonhoogte\nwanneer afspeelsnelheid verandert\n\nKan muziek vertraging veroorzaken\nop langzame computers
+Toonhoogte
+Tempo
+Semitone (s)
+Geluidssysteem
+Verander geluidssysteem:\nFMOD heeft een betere temporele nauwkeurigheid\n pitch-shift verhouding kan niet meer dan 2\nBASS heeft bredere pitch-shift-ratio\n maar armer tijdelijke nauwkeurigheid
+Cube DIVA&#39;s
+Help:\nF2: blink ontheemden cubes\nF4: shuffle\nF5: reset cube\n1 ~ 9: markeer Nth buitenste kubus\n~: Annuleren hoogtepunt\nBackspace / Links: Vorige Move\nRechts: Next Move\n / =: Highlight buitenste laag\n- / _: Hoogtepunt binnenste laag\nPageUp: draaien sneller\nPageDown: draaien langzamer
+Bestel (NxNxN):
+Dim Distant Cubes
+Teken Mode
+Rollback op de initiële
+Los van baan formule
+snel
+accuraat
+OK / Reset
+Save
+Belasting
+Schudden
+Opgelost! Gefeliciteerd!
+Ga History
+Richting
+Solide
+Deze video wordt niet ondersteund door de huidige video decoder, klikt u op &#39;JA&#39; te decoder te installeren, klik op &#39;NO&#39; om deze video te converteren, klikt u op &#39;Annuleren&#39; om het spel voort te zetten zonder video.
+Mislukt het audiobestand laden!
+Keyboard Stijl:

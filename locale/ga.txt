@@ -1,0 +1,134 @@
+Irish
+Fuinneog Méid:
+Imleabhar:
+Ní féidir a aimsiú\ncomhad cluiche\nNí féidir a imirt
+Roghnaigh amhráin a imirt,\nPV réamhamharc nó Demo
+Cuardaigh le haghaidh newest pacáistí leagan amhrán\nag Diva Online Léarscáil Wiki\nCliceáil chun Goto an leathanach Wiki
+I Diva GL, is féidir leat imirt le\nimreoirí eile tríd an Idirlíon\nCliceáil le haghaidh sonraí
+Cumraíocht leagan amach méarchláir,\nméid bhfuinneog agus toirt fuaime
+Féach ar pictiúir Miku agus\nphoto album
+Lámhleabhar Taispeáin Cluiche\nhttp://www.gamemastercn.com\nMbaineann Cóipcheart chun SEGA
+Scoir Cluiche
+Méideanna fhuinneog ar fáil:
+\nAthraigh an toirt\néifeachtaí na fuaime\nBrúigh &lt;Iontráil&gt; a chloisteáil bhuail fuaim
+\n\nAthshocraigh ngach suíomh a réamhshocraithe
+Sos
+LEAN
+Atosaigh
+AIS GO MENU
+Tá liosta Folamh
+Cluiche Saincheaptha
+Cluiche Chustaim (liosta folamh)
+Mód Gairme (níl sé ar fáil)
+Multiplayer Mód (níl sé ar fáil)
+Socruithe
+Cg Réamhamhairc
+Cluiche Cabhair
+Cluiche Scoir
+MENU
+Údar
+Éasca
+Gnáth
+Crua
+Breise
+Die
+Réalta
+Deacracht:%s\nRéalta Leibhéal:%d Réalta\n\nScór is fearr:%.7d\nTeaglama Max:%.4d\nToradh is fearr:%s\nd>%d
+(Full Screen)
+Atriail
+TUAIRISCEÁN
+Athshocraigh go Réamhshocrú
+
+Teanga:
+Béarla
+Particle Éifeacht:
+Athraigh teanga taispeáint:\n
+Athraigh Córas na gcáithníní:\n0: gan aon gcáithníní (tapúla)\n1: eireaball amháin (tapa)\n2: eireaball dúbailte (gnáth)\n3: eireaball Cóiméad (slowest)
+Brúigh &lt;Iontráil&gt; a athrú\n\n[Reáchtáil síos eochracha il\nchun eochracha il léarscáil\nleis an eochair céanna]
+Times New Roman
+Courier Nua
+Arial
+(N / A)
+Misstake
+Cheap
+Caighdeán
+Mór
+Foirfe
+Times New Roman
+Off
+ÍSEAL
+MEDIUM
+HIGH
+Níl an Hook méarchlár domhanda theip, ard-cruinneas ghabháil ionchur méarchlár ar fáil.\r\nMá tá pop suas fógra balla dóiteáin, le do thoil ar chumas!
+Eochair Gabháil
+Taispeáin CCT
+Cumasaithe
+Faoi mhíchumas
+Off
+AR
+AR (OSD)
+Taispeáin CCT\n(Frame Version in aghaidh an dara)\n1. Ná taispeáin\n2. Taispeáin ar theideal na fuinneoige\n3. Ar-scáileán taispeána
+\n\n0: Gnáth ionchur eochair WM_KEYDOWN\n1: Domhanda Keyhook WH_KEYBOARD_LL\n2: Úsáid DirectInput
+CurrFPS =%.2f, AvgFPS =%.2f
+Theip ar
+Auto Sos
+Riamh
+PlayOnly
+I gcónaí
+Modh uathoibríoch sos:\n1. Ná sos\n2. Sa dráma-mód amháin\n3. aillimhe sos
+Video Cáilíochta
+Tiontaigh físe ó MP4 a AVI\nLAP a shábháil\n0: MP4 (gan chomhshó)\n1: chaighdeán is airde AVI\n9: chaighdeán is ísle AVI
+Chomhéadain cluiche
+\nRoghnaigh Chomhéadain craiceann:\nFéach gamedata * txt\nRaon reatha: 1 ~ 5\nCas ar &lt;CapsLock&gt; chun réamhamharc
+Rún AVI:\n1 ~ 3: 1024x576\n4 ~ 6: 640x360\n7 ~ 9: 480x270
+Saincheaptha
+Le do thoil brúigh ↑ ↓ ← → △ × □ ○ i seicheamh
+Preas &lt;ESC&gt; a chur ar ceal, &lt;Cúlspás&gt; chun eochair roimhe
+Brúigh &lt;Iontráil&gt; a dhearbhú, brúigh &lt;ESC&gt; a chur ar ceal
+Cló
+\nAthraigh Chomhéadain Cló:\nTimes New Roman\nCourier Nua\nArial
+Spás
+nó
+Antialiasing
+Modh frith-aliasing:\n0: (Off) stiall tharraingt bogearraí (slowest)\n1: (AR) crua-earraí is ísle (tapúla)\n...\nN: (AR) crua-earraí is airde (slowest)\n\nRogha Reatha:\n
+Breithiúnas
+Caighdeán
+Strict
+Scóráil Modh eochair:\nCaighdeán: eochair brúite go héagórach\nBEIDH NÍ ceal an nóta seo chugainn\nDian: eochair brúite go héagórach\nBEIDH ar ceal an nóta seo chugainn\nmás amhlaidh, laistigh de fhráma ama
+(Off)\nAn-mall i líníocht stiallacha fada
+Nóta Moill Coigeartaigh
+Méarchláir Moill Cúiteamh
+DelayCompen
+\nMéarchláir Moill Cúiteamh\nAn tAonad: i milleasoicindí\nAn bhfuil NACH difear moill fuaime eochair\nPreas F5 / F6 le linn cluiche a dhéanann céanna
+1. Le linn cluiche, dul ar CapsLock chun cosc ​​a chur ar &#39;bás&#39;. Mar sin féin, a luaithe a HP imithe faoi bhun 0, beidh HP thomhas seal dubh, toradh deiridh a bheith i gcónaí &#39;botún&#39;\n2. Le linn cluiche, brúigh F1 ~ F4 a choigeartú agus nóta mhoill a shábháil ar an léarscáil atá ann faoi láthair (féach calibration.inf i bhfillteán amhrán áireamh), brúigh F5 / F6 a choigeartú agus cúiteamh moill méarchlár a shábháil, brúigh PageUp / PageDown a choigeartú agus a shábháil an toirt an amhrán atá ann faoi láthair\n3. Preas / - a choigeartú luas an cheoil (a choimeád ar bun an bpáirc chéanna), brúigh F11 / F12 a choigeartú pháirc ceol (a choimeád ar bun ar an luas céanna), brúigh F7 / F8 a choigeartú an luas na gluaiseachta eireaball\n4. Nuair a bhíonn PitchShiftDSP mhíchumas, an pháirc ní féidir a athrú go neamhspleách ar an luas, (ach ar an ráta samplála athrú), ach tá an latency ceol / moill íosta\n5. A athrú ar an seoladh fillteán amhrán, cuir an líne seo a leanas a config.ini, songPath = [my_song_folder_path] \\n6. Féadfaidh an fillteán amhrán go bhfuil fo-fillteáin anois ionas gur féidir leat atheagrú do bhailiú d&#39;amhráin\n7. Cliceáil ar an mbarra dul chun cinn a rianú a lorg chun an phoist, brúigh &lt;Tab&gt; rian a phost a lorg-rian roimhe a lorg; mar sin féin, beidh sin a dhéanamh mar thoradh ar &#39;Dearmaid&#39; le haghaidh an scór deiridh
+Cluiche Cabhair
+Imleabhar
+Seinn Luas
+Luas Tail
+Coinnigh Pic
+Choimeád ar bun ar an bpáirc chéanna\nnuair a athraíonn luas athsheinm\n\nD&#39;fhéadfadh sé moill ceoil\nar ríomhairí mall
+Pic
+Tempo
+Semitone (í)
+Soundsystem
+Athraigh córas fuaime:\nFMOD Tá cruinneas ama níos fearr\n Ní féidir le cóimheas pháirc-athrú níos mó ná 2\nTá BASS cóimheas pháirc-athrú níos leithne\n ach cruinneas níos boichte ama
+Ciúb DIVA ar
+Cabhair:\nF2: blink ciúbanna díláithrithe\nF4: Suaitheadh\nF5: ciúb athshocrú\n1 ~ 9: aird a tharraingt ar Tiobraid ciúb is forimeallaí\n~: Aird a tharraingt ar ceal\nCúlspás / chlé: Bog ais\nAr dheis: Bog Ar Aghaidh\n / =: Aird a tharraingt ar ciseal seachtrach\n- / _: Aird a tharraingt ar ciseal istigh\nPageUp: rothlú níos tapúla\nPageDown: rothlú níos moille
+Ordú (NxNxN):
+Dim Ciúbanna bhfad i gcéin
+Tarraing Mód
+Rollback tosaigh
+Réitigh trí foirmle bhfithis
+tapa
+cruinn
+OK / Athshocraigh
+Sábháil
+Luchtaigh
+Suaitheadh
+Réiteach! Comhghairdeas!
+Téigh Stair
+Treo
+Soladach
+Níl an físeán tacaithe ag an decoder físeán atá ann faoi láthair, cliceáil ar &#39;TÁ&#39; decoder a shuiteáil, cliceáil ar &#39;NO&#39; a thiontú físeán seo, cliceáil ar &#39;Cealaigh&#39; chun leanúint leis an cluiche gan físeáin.
+Theip ar luchtú an comhad fuaime!
+Stíl Méarchláir:

@@ -1,0 +1,36 @@
+#include "windows.h"
+#include "tempo.h"
+
+1000 DIALOG DISCARDABLE  0, 0, 240, 156
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "BASS_FX tempo / rate / pitch with dsp fx"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "click here to open a file && play it...",ID_OPEN,0,0,
+                    240,20
+    CTEXT           "125 hz",IDC_STATIC,15,112,22,8
+    CTEXT           "1 khz",IDC_STATIC,55,112,18,8
+    CTEXT           "8 khz",IDC_STATIC,95,112,18,8
+    CTEXT           "Volume",IDC_STATIC,5,25,231,8
+    CTEXT           "Tempo = 0%",IDC_STEMPO,125,50,110,8
+    CTEXT           "Playing position: 00:00 / 00:00",IDC_SPOS,5,125,230,8
+    CTEXT           "-= DSP Peaking Equalizer =-",IDC_SDSPEQ,5,50,114,8
+    CONTROL         "Slider1",IDC_VOL,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,5,37,230,11
+    CONTROL         "Slider1",IDC_POS,"msctls_trackbar32",TBS_NOTICKS | 
+                    WS_TABSTOP,5,135,230,15
+    CONTROL         "Slider2",IDC_TEMPO,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,125,60,110,12
+    CONTROL         "Slider2",IDC_RATE,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,125,85,110,11
+    CONTROL         "Slider2",IDC_PITCH,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,125,110,110,11
+    CTEXT           "Samplerate = 44100Hz",IDC_SRATE,125,75,111,8
+    CTEXT           "Pitch Scaling = 0 semitones",IDC_SPITCH,125,100,110,8
+    CONTROL         "Slider1",IDC_SLDEQ1,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | WS_TABSTOP,11,60,30,52
+    CONTROL         "Slider1",IDC_SLDEQ2,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | WS_TABSTOP,50,60,30,52
+    CONTROL         "Slider1",IDC_SLDEQ3,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | WS_TABSTOP,87,60,30,52
+END

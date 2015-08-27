@@ -1,0 +1,176 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Simplified, PRC) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+DIVA                    ICON                    "Project DIVA.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,8,0,8
+ PRODUCTVERSION 3,4,0,0
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "CompanyName", "GameMaster"
+            VALUE "FileDescription", "Project DIVA PC"
+            VALUE "FileVersion", "1.8.0.8"
+            VALUE "InternalName", "Project DIVA PC"
+            VALUE "LegalCopyright", "Copyright (C) 2009-2010 GameMaster"
+            VALUE "OriginalFilename", "Project DIVA.exe"
+            VALUE "ProductName", "Project DIVA PC HD"
+            VALUE "ProductVersion", "3.4.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // Chinese (Simplified, PRC) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RCDATA
+//
+
+IDB_ARROW               RCDATA                  "arrow.png"
+IDB_SQUARE              RCDATA                  "square.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_rubic DIALOGEX 0, 0, 125, 260
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Diva's Cube"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Reset",IDOK,64,193,45,13
+    EDITTEXT        IDC_order,83,178,26,12,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Order (NxNxN):",IDS_order,7,179,73,8
+    LTEXT           "",IDS_help,7,7,111,109
+    CONTROL         "Dim Distant Cubes",IDC_dim,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,22,131,82,13
+    PUSHBUTTON      "Rollback to initial",ID_rollback,16,224,93,13
+    PUSHBUTTON      "Diva Solve",ID_solve_orbit,16,240,93,13
+    CONTROL         "Fast",IDR_drawfast,"Button",BS_AUTORADIOBUTTON,22,121,30,10
+    CONTROL         "Accurate",IDR_drawacc,"Button",BS_AUTORADIOBUTTON,61,121,41,10
+    GROUPBOX        "Draw Mode",IDS_drawmode,7,112,111,34
+    PUSHBUTTON      "Save",ID_save,16,208,45,13
+    PUSHBUTTON      "Load",ID_load,64,208,45,13
+    PUSHBUTTON      "Shuffle",ID_shuffle,16,193,45,13
+    EDITTEXT        IDC_gotohist,16,163,44,12,ES_AUTOHSCROLL | ES_NUMBER
+    DEFPUSHBUTTON   "Goto History",ID_goto,64,162,45,13
+    CONTROL         "Directional",IDC_dir,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,147,46,13
+    CONTROL         "Solid",IDC_solid,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,66,147,46,13
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_rubic, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 118
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 253
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

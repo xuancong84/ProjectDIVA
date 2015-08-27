@@ -1,0 +1,134 @@
+tiếng Việt
+kích thước cửa sổ:
+khối lượng:
+không thể xác định vị trí\nfile game\nkhông thể chơi
+chọn bài hát để chơi,\nxem trước pv hoặc demo
+tìm kiếm mới nhất của gói phiên bản bài hát\ntại diva wiki bản đồ trực tuyến\nbấm vào để goto trang wiki
+trong diva ol, bạn có thể chơi với\nngười chơi khác thông qua internet\nbấm vào để xem chi tiết
+bố trí bàn phím config,\nkích thước cửa sổ và âm lượng âm thanh
+xem hình ảnh miku và\nalbum ảnh
+chương trình trò chơi dẫn\nhttp://www.gamemastercn.com\nbản quyền thuộc về sega
+bỏ trò chơi
+kích thước cửa sổ có sẵn:
+\nthay đổi âm lượng\nhiệu ứng của âm thanh\nnhấn &lt;enter&gt; để nghe âm thanh đạt
+\n\nđặt lại tất cả các thiết lập mặc định
+tạm ngừng
+tiếp tục
+khởi động lại
+trở lại trình đơn
+Danh mục sản phẩm nào
+custom game
+trò chơi tùy chỉnh (danh sách trống)
+chế độ nghề nghiệp (không có)
+nhiều chế độ (không có)
+cài đặt
+cg preview
+trò chơi giúp đỡ
+lối chơi
+thực đơn
+tác giả
+dễ dàng
+bình thường
+cứng
+thêm
+chết
+ngôi sao
+khó khăn:%s\nmức ngôi sao:%d \n\nđiểm số tốt nhất:%.7d\nkết hợp tối đa:%.4d\nKết quả tốt nhất:%s\n# Thời gian trôi qua:%d
+(Toàn màn hình)
+thử lại
+trở về
+thiết lập lại để mặc định
+
+ngôn ngữ:
+Anh
+hiệu ứng hạt:
+thay đổi ngôn ngữ hiển thị:\n
+thay đổi hệ thống hạt:\n0: không có hạt (nhanh nhất)\n1: đuôi đơn (nhanh)\n2: đuôi kép (bình thường)\n3: đuôi sao chổi (chậm nhất)
+nhấn &lt;enter&gt; để thay đổi\n\n[Giữ nhiều phím\nđể bản đồ nhiều phím\ntới khóa tương tự]
+lần roman mới
+chuyển phát nhanh mới
+arial
+(N / a)
+misstake
+rẻ
+tiêu chuẩn
+lớn
+hoàn hảo
+lần roman mới
+off
+thấp
+trung bình
+cao
+hook bàn phím toàn cầu đã thất bại, chính xác cao bắt đầu vào bàn phím là không có sẵn.\r\nnếu một thông báo tường lửa có bật lên, hãy cho phép!
+Phím chụp
+chương fps
+kích hoạt
+tàn tật
+off
+trên
+trên (OSD)
+chương fps\n(Khung hình mỗi giây)\n1. không hiển thị\n2. hiển thị trên tiêu đề cửa sổ\n3. trên màn hình hiển thị
+\n\n0: đầu vào quan trọng bình thường WM_KEYDOWN\n1: toàn cầu wh_keyboard_ll keyhook\n2: sử dụng DirectInput
+currfps =%.2f, Avgfps =%.2f
+thất bại
+tự động tạm dừng
+không bao giờ
+playonly
+luôn luôn
+phương pháp tự động tạm dừng:\n1. không bao giờ dừng lại\n2. chỉ play-mode\n3. hoài tạm dừng
+chất lượng video
+chuyển đổi video từ mp4 sang avi\nđể tiết kiệm cpu\n0: mp4 (không chuyển đổi)\n1: avi chất lượng cao nhất\n9: avi chất lượng thấp nhất
+trò chơi ui
+\nchọn da ui:\nxem GameData * .txt\nphạm vi hiện tại: 1 ~ 5\nbật &lt;capslock&gt; để xem trước
+avi độ phân giải:\n1 ~ 3: 1024x576\n4 ~ 6: 640x360\n7 ~ 9: 480x270
+khách hàng
+xin vui lòng bấm ↑ ↓ ← → △ × □ ○ theo thứ tự
+nhấn &lt;esc&gt; để hủy bỏ, &lt;Backspace&gt; để khóa trước
+nhấn &lt;enter&gt; để xác nhận, nhấn &lt;esc&gt; để hủy bỏ
+font chữ
+\nthay đổi font ui:\nlần roman mới\nchuyển phát nhanh mới\narial
+không gian
+hoặc
+khử răng cưa
+chế độ anti-aliasing:\n0: (off) dải phần mềm hòa (chậm nhất)\n1: (trên) phần cứng thấp nhất (nhanh nhất)\n...\nn: (trên) phần cứng cao nhất (chậm nhất)\n\nlựa chọn hiện tại:\n
+án
+tiêu chuẩn
+đúng
+ghi phương pháp chính:\ntiêu chuẩn: sai ép chính\nsẽ không hủy bỏ các nốt tiếp theo\nnghiêm ngặt: key sai ép\nsẽ hủy bỏ các nốt tiếp theo\nnếu trong khung thời gian
+(Off)\nrất chậm trong việc vẽ dải dài
+lưu ý trì hoãn điều chỉnh
+bồi thường chậm trễ bàn phím
+delaycompen
+\nbồi thường chậm trễ bàn phím\nđơn vị: trong mili giây\nkhông ảnh hưởng đến sự chậm trễ âm thanh chính\nbấm f5 / f6 trong game sẽ làm điều tương tự
+1. trong game, bật capslock để ngăn chặn &#39;chết&#39;. Tuy nhiên, một khi hp đã đi xuống dưới 0, gauge hp sẽ chuyển sang màu đen, kết quả cuối cùng sẽ luôn là &#39;sai lầm&#39;\n2. trong trò chơi, nhấn f1 ~ f4 để điều chỉnh và lưu ghi chú chậm trễ cho các bản đồ hiện tại (xem calibration.inf trong thư mục của bài hát đó), nhấn f5 / f6 để điều chỉnh và lưu bồi thường chậm trễ bàn phím, bấm PageUp / PageDown để điều chỉnh và tiết kiệm khối lượng của các bài hát hiện tại\n3. chí / - để điều chỉnh nhịp độ âm nhạc (duy trì sân cùng), nhấn f11 / f12 để điều chỉnh sân âm nhạc (duy trì tiến độ như nhau), nhấn f7 / f8 để điều chỉnh tốc độ chuyển động đuôi\n4. khi pitchshiftdsp bị vô hiệu hóa, sân thể không được thay đổi độc lập từ tiến độ, (chỉ có tỷ lệ lấy mẫu được thay đổi), nhưng độ trễ âm nhạc / delay là tối thiểu\n5. thay đổi địa chỉ thư mục bài hát, thêm dòng sau vào config.ini, songpath = [my_song_folder_path] \\n6. thư mục bài hát có thể chứa các thư mục con ngay lúc này để bạn có thể tổ chức lại bộ sưu tập các bài hát\n7. nhấp chuột vào thanh tiến trình để tìm kiếm ca khúc để vị trí đó, nhấn &lt;tab&gt; để tìm kiếm ca khúc để trước vị trí tìm kiếm theo dõi; Tuy nhiên, làm như vậy sẽ dẫn đến &#39;sai lầm&#39; cho các điểm số cuối cùng
+trò chơi giúp đỡ
+thể tích
+tốc độ chơi
+tốc độ đuôi
+giữ sân
+duy trì các sân cùng\nkhi thay đổi tốc độ phát lại\n\ncó thể gây ra sự chậm trễ âm nhạc\ntrên các máy tính chậm
+độ
+tiến độ
+semitone (s)
+hệ thống âm thanh
+thay đổi hệ thống âm thanh:\nfmod có độ chính xác thời gian tốt hơn\n tỷ lệ sân ca không thể vượt quá 2\nâm bass có rộng lớn hơn tỷ lệ pitch-shift\n nhưng độ chính xác thời gian nghèo
+cube diva của
+giúp đỡ:\nf2: blink khối di dời\nf4: Shuffle\nf5: thiết lập lại cube\n1 ~ 9: làm nổi bật thứ n khối ngoài cùng\n~: Hủy nổi bật\nBackSpace / trái: di chuyển trước\nphải: di chuyển tiếp theo\n / =: Highlight lớp ngoài\n- / _: Nổi bật bên trong lớp\nPageUp: xoay nhanh hơn\nPageDown: xoay chậm
+trật tự (nxnxn):
+mờ hình khối xa
+chế độ vẽ
+rollback để tắt
+giải quyết bằng công thức quỹ đạo
+nhanh
+chính xác
+ok / thiết lập lại
+tiết kiệm
+tải
+trộn
+giải quyết! xin chúc mừng!
+goto lịch sử
+directional
+chắc
+Video này không được hỗ trợ bởi bộ giải mã video hiện tại, nhấp vào &#39;Có&#39; để cài đặt bộ giải mã, nhấp vào &#39;không&#39; với chuyển đổi video này, bấm vào &#39;hủy&#39; để tiếp tục trò chơi mà không có hình.
+không thể tải các tập tin âm thanh!
+phong cách bàn phím:

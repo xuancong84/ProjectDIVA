@@ -1,0 +1,134 @@
+român
+dimensiunea ferestrei:
+Volumul:
+nu poate localiza\nfișier joc\nnu poate juca
+alege melodii pentru a juca,\npv previzualizare sau demo
+căutare pentru cele mai noi pachete versiune cântec\nla diva on-line harta wiki\nclick pentru a Du-te la pagina wiki
+în diva ol, poți să te joci cu\nalți jucători prin internet\nclick pentru detalii
+config tastatură,\ndimensiunea ferestrei și volumul sunetului
+vizualiza imagini Miku și\nalbum foto
+manual spectacol joc\nhttp://www.gamemastercn.com\ncopyright aparține sega
+renuntat joc
+disponibile fereastra dimensiuni:
+\nmodifica volumul\nEfecte de sunet\napăsați &lt;Enter&gt; pentru a auzi sunetul lovi
+\n\nreseta toate setările la valorile implicite
+pauză
+continua
+repornire
+înapoi la meniul
+lista este goală
+joc personalizat
+joc personalizat (lista gol)
+Modul de carieră (nu este disponibil)
+Modul multiplayer (nu este disponibil)
+Setări
+cg previzualizare
+joc de ajutor
+joc ieșire
+meniu
+autor
+ușor
+normal
+greu
+suplimentar
+muri
+stea
+dificultate:%s\nNivelul stele:%d \n\ncel mai bun scor:%.7d\nCombo max:%.4d\ncel mai bun rezultat:%s\n# ori a trecut:%d
+(Ecran complet)
+reîncerca
+întoarcere
+resetare la valorile implicite
+
+Limba:
+engleză
+efect de particule:
+schimba limba afișată:\n
+schimba sistemul de particule:\n0: Nu particule (cel mai rapid)\n1: un singur coada (rapid)\n2: coada dubla (normal)\n3: coada cometei (cea mai lentă)
+apăsați &lt;Enter&gt; pentru a schimba\n\n[Țineți apăsat mai multe chei\nla harta mai multe chei\nla aceeași cheie]
+Times New Roman
+curier nou
+arial
+(N / A)
+misstake
+ieftin
+standard
+mare
+perfect
+Times New Roman
+de pe
+scăzut
+mediu
+mare
+cârlig tastatură global nu, de înaltă precizie de captare de intrare tastatura nu este disponibil.\r\ndacă un anunț de firewall are pop-up, vă rugăm să permită!
+captare cheie
+arată fps
+activat
+invalid
+de pe
+pe
+pe (OSD)
+arată fps\n(cadre pe secundă)\n1. nu arată\n2. arată pe fereastră titlu\n3. pe ecran
+\n\n0: intrare cheie normală wm_keydown\n1: wh_keyboard_ll keyhook global\n2: utilizarea DirectInput
+currfps =%.2f, Avgfps =%.2f
+nu a reușit
+pauză auto
+niciodată
+playonly
+mereu
+Metoda pauză auto:\n1. nu întrerupe\n2. numai play-mode\n3. totdeauna pauză
+calitate video
+conversia video de la mp4 la avi\npentru a salva CPU\n0: mp4 (fără conversie)\n1: cea mai mare avi calitate\n9: cel mai mic avi calitate
+joc ui
+\nalege piele ui:\nvezi gamedata * .txt\nGama curentă: 1 ~ 5\nactivați &lt;CapsLock&gt; pentru previzualizare
+Rezoluția avi:\n1 ~ 3: 1024x576\n4 ~ 6: 640x360\n7 ~ 9: 480x270
+obicei
+vă rugăm să apăsați ↑ ↓ ← → △ × □ ○ în secvență
+apăsați &lt;Esc&gt; pentru a anula, &lt;backspace&gt; la cheie precedent
+apăsați &lt;Enter&gt; pentru a confirma, apăsați &lt;Esc&gt; pentru a anula
+font
+\nschimba font ui:\nTimes New Roman\ncurier nou\narial
+spațiu
+sau
+antialiasing
+Modul anti-aliasing:\n0: (off) bandă software egalitate (cea mai lentă)\n1: (pe) hardware mai mică (cel mai rapid)\n...\nn: (pe) hardware cea mai mare (cea mai lentă)\n\nOpțiunea curentă:\n
+hotărâre
+standard
+strict
+metoda de scoring cheie:\nStandard: presat în mod eronat cheie\nnu va anula nota următoare\nstrictă: tasta apăsată în mod eronat\nva anula nota următoare\ndacă în interval de timp
+(Off)\nfoarte lent în desen fâșii lungi
+întârziere notă regla
+compensare întârziere tastatură
+delaycompen
+\ncompensare întârziere tastatură\nunitate: în milisecunde\nnu afectează întârziere de sunet cheie\napăsați F5 / F6 în timpul jocului nu același
+1. în timpul jocului, porniți CapsLock a împiedica paseaza. Cu toate acestea, odată ce HP a căzut sub 0, gabaritul CP se va transforma negru, rezultatul final va fi întotdeauna &quot;greșeală&quot;\n2. în timpul jocului, apăsați F1 ~ F4 pentru a ajusta și de a salva de întârziere notă la harta curentă (vezi calibration.inf în dosarul cântecul lui), apăsați F5 / F6 pentru a ajusta și de a salva de compensare tastatură întârziere, apăsați PageUp / PageDown pentru a ajusta și de a salva volumul melodiei curente\n3. apăsați / - pentru a regla tempo muzica (mențină același teren), apăsați f11 / f12 pentru a regla pas muzică (mențină același ritm), apăsați F7 / F8 pentru a regla viteza de deplasare coadă\n4. atunci când pitchshiftdsp este dezactivată, teren nu poate fi modificat independent de ritmul, (doar rata de eșantionare este modificat), dar latență muzica / întârzierea este minim\n5. pentru a schimba adresa folder cântec, adăugați următoarea linie la config.ini, songpath = [my_song_folder_path] \\n6. dosarul melodie poate conține sub-directoare acum, astfel încât să puteți reorganiza colecția de melodii\n7. click pe bara de progres pentru a căuta piesa la această poziție, apăsați &lt;tab&gt; pentru a căuta track la poziția anterioară căuta-track; Cu toate acestea, acest lucru va duce la &quot;greșeală&quot; pentru scorul final
+joc de ajutor
+volum
+Viteza de redare
+Viteza coada
+ține pasul
+menține același pas\ncând viteza de redare se schimbă\n\npoate provoca întârzieri muzică\npe computerele lent
+smoală
+tempo
+semiton (s)
+sistem audio
+schimba sistemul de sunet:\nfmod are mai bine precizie temporală\n Raportul pas-shift nu poate depăși 2\nbas are mai mare raport pas-shift\n dar precizia temporală mai sărace
+cub diva lui
+Ajutor:\nF2: blink cuburi strămutate\nf4: shuffle\nF5: resetare cub\n1 ~ 9: evidenția cub exterior n-lea\n~: Anula evidenția\nbackspace / stânga: mutare precedent\ndreapta: următoarea mișcare\n / =: Strat exterior evidenția\n- / _: Strat interior evidenția\nPageUp: roti mai repede\nPageDown: roti lent
+Pentru (nxnxn):
+dim cuburi îndepărtate
+Mod trage
+rollback inițiale
+rezolva prin formula orbită
+rapid
+exact
+OK / resetare
+salva
+sarcină
+amestecare
+rezolvat! felicitări!
+Istoria goto
+directional
+solid
+Acest videoclip nu este susținută de decodor video curent, faceți clic pe &quot;da&quot; pentru a instala decodor, faceți clic pe &quot;nu&quot; pentru a converti acest video, faceți clic pe &quot;Anulați&quot; pentru a continua jocul fără video.
+nu a reușit să încărcați fișierul audio!
+stil tastatură:

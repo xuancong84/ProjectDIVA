@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CB6895AD-34D6-4500-BDC7-3E8B00CE6A6D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ProjectDIVA</RootNamespace>
+    <SccProjectName>
+    </SccProjectName>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>d:\Program Files\Bass\c;d:\Program Files\dxsdk\Include;d:\Program Files\FMOD-sound-system\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>d:\Program Files\Bass\c;d:\Program Files\dxsdk\Lib;d:\Program Files\FMOD-sound-system\lib;$(LibraryPath)</LibraryPath>
+    <TargetName>$(ProjectName)</TargetName>
+    <OutDir>D:\Project DIVA PC</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>d:\Program Files\Bass\c;d:\Program Files\dxsdk\Include;d:\Program Files\FMOD-sound-system\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>d:\Program Files\Bass\c;d:\Program Files\dxsdk\Lib;d:\Program Files\FMOD-sound-system\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>d:\Project DIVA PC</OutDir>
+    <TargetName>ProjectDIVA</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>dxguid.lib;dinput8.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <IgnoreSpecificDefaultLibraries>MSVCRT.lib</IgnoreSpecificDefaultLibraries>
+      <AdditionalDependencies>dxguid.lib;dinput8.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <DelayLoadDLLs>bass.dll;bass_fx.dll;fmodex.dll</DelayLoadDLLs>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\bass.dll" />
+    <None Include="..\bass_fx.dll" />
+    <None Include="..\ffmpeg.exe" />
+    <None Include="..\fmodex.dll" />
+    <None Include="..\gamedata0.txt" />
+    <None Include="..\gamedata1.txt" />
+    <None Include="..\gamedata2.txt" />
+    <None Include="..\gamedata3.txt" />
+    <None Include="..\gamedata4.txt" />
+    <None Include="..\gamedata5.txt" />
+    <None Include="arrow.png" />
+    <None Include="Project DIVA.ico" />
+    <None Include="square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Base.cpp" />
+    <ClCompile Include="d3dmath.cpp" />
+    <ClCompile Include="defines.cpp" />
+    <ClCompile Include="DShowClock.cpp" />
+    <ClCompile Include="DShowTextures.cpp" />
+    <ClCompile Include="EffectMana.cpp" />
+    <ClCompile Include="GameIni.cpp" />
+    <ClCompile Include="GameMana.cpp" />
+    <ClCompile Include="graphEngine.cpp" />
+    <ClCompile Include="Gui.cpp" />
+    <ClCompile Include="keyboard.cpp" />
+    <ClCompile Include="mplayer.cpp" />
+    <ClCompile Include="notemap.cpp" />
+    <ClCompile Include="PSystem.cpp" />
+    <ClCompile Include="Rubix.cpp" />
+    <ClCompile Include="RubixWindow.cpp" />
+    <ClCompile Include="rubix_solver_orbit.cpp" />
+    <ClCompile Include="SoundEngine.cpp" />
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="UIScreen.cpp" />
+    <ClCompile Include="VideoEngine.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AStar.hpp" />
+    <ClInclude Include="Base.h" />
+    <ClInclude Include="defines.h" />
+    <ClInclude Include="dshowclock.h" />
+    <ClInclude Include="dshowtextures.h" />
+    <ClInclude Include="EffectMana.h" />
+    <ClInclude Include="GameIni.h" />
+    <ClInclude Include="GameMana.h" />
+    <ClInclude Include="graphEngine.h" />
+    <ClInclude Include="Gui.h" />
+    <ClInclude Include="keyboard.h" />
+    <ClInclude Include="mplayer.h" />
+    <ClInclude Include="notemap.h" />
+    <ClInclude Include="parameters.h" />
+    <ClInclude Include="PSystem.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Rubix.h" />
+    <ClInclude Include="RubixWindow.h" />
+    <ClInclude Include="rubix_solver_orbit.h" />
+    <ClInclude Include="SoundEngine.h" />
+    <ClInclude Include="test.h" />
+    <ClInclude Include="UIScreen.h" />
+    <ClInclude Include="VideoEngine.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DShowClass\DShowClass.vcxproj">
+      <Project>{257f65dd-d991-48e4-bd13-0a065af0480c}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="graghEngine.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

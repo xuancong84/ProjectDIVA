@@ -1,0 +1,168 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>Microsoft DirectX 9.0 SDK Readme File</title>
+</head>
+
+<body>
+
+<h1>Microsoft DirectX 9.0 SDK Readme File</h1>
+<h2>March 2004</h2>
+<h2>(c) Microsoft Corporation, 2004. All rights reserved.</h2>
+
+<p>This document provides late-breaking or other information that supplements the Microsoft DirectX 9.0 software development kit (SDK) documentation.</p>
+
+
+<h2>CONTENTS</h2>
+<ol>
+<li><a href="#printing_issues">PRINTING ISSUES</a></li>
+ 
+<li><a href="#directx_graphics">DIRECTX GRAPHICS</a></li>
+<ul>
+    <li>API Changes</li>
+	<li>Assembly Shader Updates</li>
+    <li>Shader Debugging on Multi-threaded Applications</li>
+    <li>CopyRects Removed</li>
+	
+  </ul>   
+
+<li><a href="#managed_code">MANAGED CODE</a></li>
+   <ul> 
+    <li>Viewing Documentation for DirectX for Managed Code</li>
+    <li>Samples</li>
+    <li>New Book</li>
+</ul>
+
+<li><a href="#direct_show">DIRECTSHOW</a></li>
+	<ul>
+	  <li>No DirectShow Debug DLL</li>
+	</ul>
+
+</ol>
+
+
+<h3><a name="printing_issues">PRINTING ISSUES</a></h3>
+
+     <p>If you are trying to print a heading and all of its subtopics, there are several known issues.</p>
+	 <ul>
+     <li>The pages will have no formatting.</li>
+     <li>If you are using Microsoft Internet Explorer 5.5, content may be missing from your printed pages. 
+       Use Internet Explorer 5.0 or 6.0 instead. The recommended printing method is to print one topic at a
+	   time. The printed page should then contain all the formatting and content.</li>
+</ul>
+
+
+<h3><a name="directx_graphics">DIRECTX GRAPHICS</a></h3>
+
+
+     <h4>API Changes</h4>
+	 
+	 <p>Major application programming interface (API) changes and new features are noted on the documentation page, "What's New in DirectX Graphics."</p>
+	 
+
+     <h4>Assembly Shader Updates</h4>
+
+     <p>Software only versions, vs_2_sw, vs_3_sw, ps_2_sw, and ps_3_sw, are supported for software vertex processing, or the reference rasterizer.</p>
+
+
+     <h4>Shader Debugging on Multi-threaded Applications</h4>
+     
+     <p>Multi-threaded shader applications that use a global render function will not work properly with the Visual Studio shader debugger.</p>
+
+
+     <h4>CopyRects Removed</h4>
+
+	 
+	<p>IDirect3DDevice8::CopyRects is not supported in DirectX 9.0. Some of the functionality that this method offered is available through two new methods: IDirect3DDevice9::UpdateSurface and IDirect3DDevice9::GetRenderTargetData.</p>
+
+    <p>UpdateSurface enables the transfer of data from a system memory surface to a video memory surface. GetRenderTargetData enables the transfer of data from a render target surface to a system memory surface.  If an application needs to transfer data from a video memory texture (or cubemap surface) to a system memory surface, it can set the D3DUSAGE_DYNAMIC flag when creating the resource, thus enabling locking of the component surfaces.  (Note that many display adapter drivers do not support the creation of dynamic resources.)  Alternatively, the application can proceed indirectly by rendering the texture (or cubemap surface) and applying GetRenderTargetData to the render target.</p>
+
+
+<h3><a name="managed_code">MANAGED CODE</a></h3>
+
+     <h4>Viewing Documentation for DirectX for Managed Code</h4>
+     
+     <p>Stand-alone help documentation for managed code is now available. Double-click the directx9_m.chm file (with "?" icon) at Program Files\Microsoft DirectX SDK (Summer 2004)\Documentation\DirectX9\. Note that if you copy the .chm file to another location, you should also copy the directx9_m.chi file to the same folder. The index in the .chm does not display object members, including methods and properties; use the Search tab to locate these. The index in Visual Studio does display object members directly.</p>
+
+     <p>See the Help topic, "Tips and Tricks Using Managed Code," on how to use the documentation with Visual Studio® .NET. The documentation is also available on the Web at http://www.msdn.microsoft.com/library/en-us/directx9_m/directx/directx9m.asp.</p>
+
+
+     <h4>Samples</h4>
+
+     <p>The samples for using DirectX for Managed Code are located at Program Files\Microsoft DirectX SDK (Summer 2004)\Samples\Managed\. Samples and applications for managed code can only be properly built using Microsoft Visual Studio® .NET 2003.</p>
+	
+	 <p>Microsoft Visual Basic® .NET and Microsoft DirectPlay® samples are no longer available in this SDK release.</p>
+
+
+     <h4> New Book</h4>
+     
+     <p> A new book is available on DirectX for Managed Code:</p>
+     
+          <p>Miller, Tom. Managed DirectX 9 Game and Graphics Programming Kick Start. Indianapolis, IN: Sams Publishing, 2003.</p>
+
+     <h4>API Changes</h4>
+
+
+     
+     <p>The following classes have changed or are new to DirectX for Managed Code:</p>
+     
+     <ul>
+        <li>AnimationController</li>
+        <li>AnimationOutput</li>
+        <li>Device</li>
+        <li>Effect</li>
+        <li>EffectStateManager (New)</li>
+        <li>GraphicsStream</li>
+        <li>Light</li>
+        <li>LightsCollection (New)</li>
+        <li>RenderStateManager (New)</li>
+        <li>SamplerStateManager (New)</li>
+        <li>SamplerStateManagerCollection (New)</li>
+        <li>TextureShader</li>
+        <li>TextureStateManager (New)</li>
+        <li>TextureStateManagerCollection (New)</li>
+		<li>DirectX.UnsafeNativeMethods (New)</li>
+     </ul>
+
+     <p>The following classes have been removed from DirectX for Managed Code:</p>
+     
+     <ul>
+        <li>Lights</li>
+        <li>RenderStates</li>     
+        <li>Sampler</li>     
+        <li>SamplerStates</li>     
+        <li>TextureState</li>     
+        <li>TextureStates</li>     
+        <li>XFileBinary</li>     
+        <li>XFileDataReference</li>     
+     </ul>
+
+     <p>Class mappings from old classes to new classes:</p>
+     
+     <ul>
+        <li>Lights - LightsCollection (New)</li>
+        <li>RenderStates - RenderStateManager (New)</li>
+        <li>SamplerStates - SamplerStateManager (New)</li>
+        <li>TextureStates - TextureStateManager (New)</li>
+     </ul>
+
+     <p>Methods that use the <i>ranks</i> parameter, such as <b>VertexBuffer.Lock</b> or <b>IndexBuffer.Lock</b>, have changed to allow an unlimited number of dimensions to be used for locking a resource into an array. <i>ranks</i> is now defined as: An array of <B>System.Int32</B> integers that represent the size of each dimension of the returning array.</p>
+
+	 <p>Certain method overloads of the Microsoft.DirectX structures have been moved to the new higher-performance Microsoft.DirectX.UnsafeNativeMethods container class. Do not use the methods of the UnsafeNativeMethods class when programming in Microsoft® Visual Basic® .NET or Microsoft® JScript® .NET.</p>
+
+     <p>NOTE: The <b>Microsoft.DirectX.PrivateImplementationDetails</b> namespace supports the .NET Framework infrastructure and is not intended to be used directly from your code.</p>
+
+    <p></p>
+
+
+
+
+<h3><a name="direct_show">DIRECTSHOW</a></h3>
+
+     <h4>No DirectShow Debug DLL</h4>
+  
+  	 <p>No DirectShow Debug DLL ships with this SDK release, so when you run DirectSetup, only the DirectShow Retail installation option is available.</p>
+
+  </body>
+</html>

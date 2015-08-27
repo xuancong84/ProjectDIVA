@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="3dtest"
+	ProjectGUID="{98CE30EE-9892-4896-9A68-34725FB454B8}"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="..\bin"
+			ConfigurationType="1"
+			CharacterSet="0"
+			>
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories=".."
+				PreprocessorDefinitions="WIN32;NDEBUG"
+				RuntimeLibrary="2"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="user32.lib comdlg32.lib gdi32.lib comctl32.lib"
+				SubSystem="2"
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<File
+			RelativePath="3dtest.c"
+			>
+		</File>
+		<File
+			RelativePath="3dtest.rc"
+			>
+		</File>
+		<File
+			RelativePath="..\bass.lib"
+			>
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

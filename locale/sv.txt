@@ -1,0 +1,134 @@
+Svenska
+Fönsterstorlek:
+Volym:
+Det går inte att hitta\nspelfilen\nDet går inte att spela
+Välj låtar att spela,\nförhandsgranskning PV eller Demo
+Sök efter nyaste versionen sång paket\nvid Diva Online Karta Wiki\nKlicka för att gå till Wiki-sidan
+I Diva OL, kan du spela med\nandra spelare via Internet\nKlicka för mer information
+Config tangentbordslayout,\nfönsterstorlek och ljudvolymen
+Visa Miku bilder och\nfotoalbum
+Visa Spel Manuell\nhttp://www.gamemastercn.com\nCopyright tillhör SEGA
+Avsluta spelet
+Tillgängliga fönsterstorlekar:
+\nÄndra volymen\nljudeffekter\nTryck på &lt;Enter&gt; för att höra hit ljud
+\n\nÅterställ alla inställningar till standard
+PAUS
+FORTSÄTTA
+OMSTART
+Tillbaka till menyn
+Listan är tom
+Custom Game
+Custom Game (tom lista)
+Career Mode (ej tillgänglig)
+Multiplayer-läge (ej tillgänglig)
+Inställningar
+CG Förhandsvisning
+Spel Hjälp
+Avsluta spel
+MENY
+Författare
+Lätt
+Normal
+Hård
+Extra
+Die
+Star
+Svårighetsgrad:%s\nStjärn Level:%d \n\nBästa poäng:%.7d\nCombo Max:%.4d\nBästa resultat:%s\nd>%d
+(Fullskärm)
+FÖRSÖKA IGEN
+AVKASTNING
+Återställ till standard
+
+Språk:
+Engelska
+Partikel Effekt:
+Ändra visas språk:\n
+Ändra partikel systemet:\n0: ingen partikel (snabbast)\n1: enstaka svansen (snabb)\n2: Dubbel svans (normalt)\n3: kometsvans (långsammast)
+Tryck på &lt;Enter&gt; för att ändra\n\n[Håll flera nycklar\natt kartlägga flera nycklar\ntill samma nyckel]
+Times New Roman
+Courier New
+Arial
+(N / A)
+Misstake
+Billiga
+Standard
+Stora
+Perfekt
+Times New Roman
+FRÅN
+LÅG
+MEDIUM
+HÖG
+Global tangentbord krok misslyckades, hög precision tangentbordet fånga är inte tillgänglig.\r\nOm ett meddelande om brandvägg har dyker upp, låt!
+Nyckel Capture
+Visa FPS
+Aktiverat
+Funktionshindrade
+FRÅN
+PÅ
+PÅ (OSD)
+Visa FPS\n(frames per second)\n1. Visa inte\n2. Visa på fönstertitel\n3. På skärmen
+\n\n0: Normal tangentinmatning WM_KEYDOWN\n1: Global Keyhook WH_KEYBOARD_LL\n2: Använd Direct
+CurrFPS =%.2f, AvgFPS =%.2f
+Misslyckades
+Auto Pause
+Aldrig
+PlayOnly
+Alltid
+Auto paus metod:\n1. Aldrig paus\n2. På bara play-läge\n3. Lyft paus
+Videokvalitet
+Konvertera video från MP4 till AVI\natt spara CPU\n0: MP4 (ingen konvertering)\n1: högsta kvalitet AVI\n9: lägsta kvalitet AVI
+Spel UI
+\nVälj UI hud:\nSe gamedata * .txt\nStrömområde: 1 ~ 5\nSlå på &lt;CapsLock&gt; att förhandsgranska
+AVI Upplösning:\n1 ~ 3: 1024x576\n4 ~ 6: 640x360\n7 ~ 9: 480x270
+Anpassad
+Vänligen tryck ↑ ↓ ← → △ × □ ○ i sekvens
+Tryck på &lt;ESC&gt; om du vill avbryta, &lt;Backspace&gt; till föregående nyckel
+Tryck på &lt;Enter&gt; för att bekräfta, tryck på &lt;ESC&gt; för att avbryta
+Font
+\nÄndra UI Font:\nTimes New Roman\nCourier New\nArial
+Plats
+eller
+Kantutjämning
+Anti-aliasing-läge:\n0: (AV) programvara dragremsa (långsammast)\n1: (ON) hårdvara lägsta (snabbast)\n...\nN: (ON) hårdvara högsta (långsammast)\n\nNuvarande alternativ:\n
+Dom
+Standard
+Strikt
+Scoring viktig metod:\nStandard: felaktigt trycks nyckel\nKOMMER INTE avbryta nästa not\nStrikt: felaktigt trycks nyckel\nKommer att avbryta nästa not\nOm inom tidsramen
+(AV)\nMycket långsam i att dra långa remsor
+Obs Delay Adjust
+Tangentbord Delay Compensation
+DelayCompen
+\nTangentbord Delay Compensation\nEnhet: i millisekunder\nPåverkar inte knappljud fördröjning\nTryck på F5 / F6 under spelet gör samma
+1. Under spelet, slå på CapsLock för att förhindra död &quot;. Men när HP har gått under 0, kommer HP att mätaren blir svart, slutresultatet blir alltid &quot;misstag&quot;\n2. Under spelet, tryck på F1 ~ F4 för att justera och spara notera dröjsmål den aktuella kartan (se calibration.inf i den låten mapp), tryck på F5 / F6 för att justera och spara tangentbord fördröjningskompensation, trycker PageUp / Pagedown justera och spara volymen av den aktuella låten\n3. Tryck på / - för att justera musiken tempo (behålla samma tonhöjd), tryck på F11 / F12 för att justera musik tonhöjd (behålla samma tempo), tryck på F7 / F8 för att justera hastigheten på svansen rörelse\n4. När PitchShiftDSP är inaktiverad, planen kan inte ändras oberoende av tempot, (endast samplingshastigheten ändras), men musiken latens / fördröjning är minimal\n5. Om du vill ändra mapp låten adress, lägg till följande rad i config.ini, songPath = [my_song_folder_path] \\n6. Mappen låten kan innehålla undermappar nu så att du kan organisera din samling av låtar\n7. Klicka på förloppsindikatorn för att söka reda på den positionen, tryck &lt;Tab&gt; söka spår till föregående söka spår position; Men kommer det leda till &quot;misstag&quot; för slutresultatet
+Spel Hjälp
+Volym
+Spela Speed
+Svans Hastighet
+Håll Pitch
+Behåll samma tonhöjd\nnär uppspelningshastighet ändras\n\nKan orsaka musik fördröjning\npå långsamma datorer
+Pitch
+Tempo
+Halvton (er)
+Ljudsystem
+Ändra ljudsystem:\nFMOD har bättre temporal precision\n pitch-shift förhållandet får inte överstiga 2\nBASS har bredare pitch-shift förhållande\n men sämre temporal exakthet
+DIVA kub
+Hjälp:\nF2: blink fördrivna kuber\nF4: shuffle\nF5: återställning kub\n1 ~ 9: markera Nth yttersta kub\n~: Avbryta höjdpunkt\nBackspace / Vänster: Föregående Flytta\nHöger: Nästa Move\n / =: Höjdpunkt yttre skikt\n- / _: Höjdpunkt inre skikt\nPageUp: rotera snabbare\nDown: rotera långsammare
+Beställ (NxNxN):
+Dim Distant Cubes
+Draw Läge
+Rollback initial
+Lös genom omloppsbana formel
+snabb
+exakt
+OK / Återställ
+Spara
+Belastning
+Blanda
+Löst! Grattis!
+Goto Historik
+Riktnings
+Fastämne
+Denna video stöds inte av den aktuella videoavkodare, klicka på &quot;YES&quot; för att installera dekoder, klicka på &quot;NEJ&quot; för att konvertera den här videon, klicka på &quot;Avbryt&quot; för att fortsätta spelet utan video.
+Det gick inte att läsa in ljudfilen!
+Tangentbord Stil:

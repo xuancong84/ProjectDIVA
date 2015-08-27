@@ -1,0 +1,146 @@
+# Project DIVA PC resource(res) data
+# res_type res_name filepath srcRect.X srcRect.Y srcRect.width srcRect.height [dstRect.X dstRect.Y dstRect.width dstRect.height color.R color.G color.B color.A X_step Y_step]
+
+Image listbox_title pic\menu_basic.png 0 0 164 16 0 32 164 18
+Image note_pointer pic\notes_big.png 1 769 126 126 0 0 0 0
+Image note_rect[8] pic\notes_big.png 1 1 126 126 0 0 0 0 255 255 255 255 128 0
+Image note_rect_strip[8] pic\notes_big.png 1 129 126 126 0 0 0 0 255 255 255 255 128 0
+Image rhythm_rect[8] pic\notes_big.png 1 257 126 126 0 0 0 0 255 255 255 255 128 0
+Image rhythm_rect_strip[8] pic\notes_big.png 1 385 126 126 0 0 0 0 255 255 255 255 128 0
+Image bar_in[8] pic\notes_big.png 0 912 13 13 0 0 13 13 255 255 255 255 15 0
+Image bar_out pic\notes_big.png 0 928 16 16 0 0 16 16
+Image presh_rect[8] pic\notes_big.png 500 700 40 40 0 0 0 0 255 255 255 255 0 0
+
+Image bottom1 		pic\menu_basic02.png 28 179 480 16 0 256 480 16
+Image bottom2		pic\menu_basic02.png 0 117 480 25 480 247 480 25
+Image label_Move 	pic\menu_basic02.png 309 33 35 10 0 0 35 11
+Image label_Select	pic\menu_basic02.png 0 0 36 10 0 0 36 11
+Image label_F5 		pic\menu_basic02.png 422 44 40 10 0 0 40 10
+Image label_PV 		pic\menu_basic02.png 371 22 46 10 0 0 46 11
+Image label_Display	pic\menu_basic02.png 346 0 34 10 0 0 34 11
+
+Int tail_color_CIRCLE[4]	126  240  142	255
+Int tail_color_RECT[4]		255  141  166	255
+Int tail_color_CROSS[4]		96  203  255	255
+Int tail_color_TRIANGLE[4]	234 51  255	255
+Int tail_color_RIGHT[4]		126  240  142	255
+Int tail_color_LEFT[4]		255  141  166	255
+Int tail_color_DOWN[4]		96  203  255	255
+Int tail_color_UP[4]		234 51  255	255
+Int tail_color_background[4]	255 255 255	255
+
+Image 	score_dash	pic\block.png 0 0 8 8 366 8 110 2 255 0 0 200
+Int	score_data[10]		366 0 0 0		255 255 255 255 0 8
+Int	score_scorecnt[10]	140 221 99 15	255 255 255 255	2 8
+Int	score_coolcnt[10]	140 86 99 15	231 200 83 255	0 0
+Int	score_finecnt[10]	140 104 99 15	146 178 195 255	0 0
+Int	score_safecnt[10]	140 122 99 15	81 195 106 255	0 0
+Int	score_sadcnt[10]	140 140 99 15	80 140 208 255	0 0
+Int	score_worstcnt[10]	140 158 99 15	191 64 234 255	0 0
+Int	score_combocnt[10]	140 176 99 15	91 203 201 255	0 0
+Int	score_chancecnt[10]	140 195 99 15	255 142 195 255	0 0
+
+# Effects
+Image effect_note_in pic\Press.png 256 512 256 256 0 0 0 0 255 255 255 255
+Image effect_note_press_burst1[8] pic\Press.png 0 0 224 224 -56 -56 112 112 255 255 255 200 224 224
+Image effect_note_press_burst2[8] pic\Press2.png 0 0 224 224 -56 -56 112 112 255 255 255 200 224 224
+Image effect_note_press_burst_cool[12] pic\PressCool.png 0 0 320 240 -160 -120 320 240 255 255 255 150 320 240
+Image effect_note_press_rhyme1 pic\Press.png 0 488 100 100
+Image effect_note_press_rhyme2 pic\Press2.png 0 488 100 100
+Image effect_note_press_aura pic\flame.png 0 0 200 200 0 0 0 0 255 255 255 255
+
+# Effect parameters: start_frame end_frame initial_size final_size size_gamma initial_alpha final_alpha alpha_gamma
+Float effect_aura_params[8] 0 30 0 200 1.0 240 0 2
+Float effect_rhyme_params[8] 0 30 0 80 0.5 240 0 1
+Float effect_ripple_params[8] 0 30 0 40 0.5 255 0 2
+
+Image main_menu_title pic\menu_title_home.png 389 76 123 34 0 0 123 34
+Image main_menu_detail pic\menu_common.png 335 115 177 116 297 50 177 116
+Image cg_menu_title pic\menu_title_home.png 260 76 123 34 0 0 123 34
+Image cg_menu_back pic\menu_common.png 193 9 147 82 0 0 0 0
+Image cg_left_arrow pic\menu_basic04.png 217 18 13 13 6 123 26 26
+Image cg_right_arrow pic\menu_basic04.png 230 18 13 13 448 123 26 26
+Image listbox_title pic\menu_basic.png 0 0 164 16 0 32 164 16
+Image title pic\menu_title_home.png 260 76 123 34 0 0 123 34
+Image main_menu_top1 pic\menu_title_home.png 95 0 417 21 63 0 417 21
+Image main_menu_top2 pic\menu_title_home.png 32 21 480 54  0 0 480 54
+Image cgBack pic\menu_common.png 193 9 147 82
+Image lArrow pic\menu_basic04.png 217 18 13 13 6 123 26 26
+Image rArrow pic\menu_basic04.png 230 18 13 13 448 123 26 26
+Image white pic\block.png 0 0 8 8 0 0 480 272
+Image black_top pic\black.png 0 0 8 8 0 -22 480 22
+Image black_bottom pic\black.png 0 0 8 8 0 272 480 22
+Image chanceTimeLabel pic\num.png 201 3 73 14 3 253 73 14
+Image top_bar pic\ui_old.png 		0 0 480 22 	0 0 480 22
+Image top_bar_red pic\ui_old.png 	0 193 480 22 	0 0 480 22
+
+Image bottom_bar pic\ui_old.png 	0 24 480 54 	0 218 480 54
+Image bottom_bar_red pic\ui_old.png 	0 216 480 54 	0 218 480 54
+
+Image rhythm_logo pic\ui.png 		491 140 11 11	5 3 11 11
+Image hp_gauge[20] pic\ui_old.png 	0 79 38 38 	9 228 38 38	255 255 255 160 38 38
+Image hp_UPs[5] pic\ui.png 		0 155 38 38 	9 228 38 38	255 255 255 200 38 38
+Image hp_ExQn pic\ui.png		76 271 36 36	8 228 36 36	255 255 255 200
+Image hp_Ex pic\ui.png			116 271 36 36	11 228 36 36	255 255 255 200
+Image hp_rhyme pic\ui.png		40 271 36 36	11 228 36 36	255 255 255 255
+Image combo_gauge[13] pic\gauge.png 	0 136 56 56	9 228 56 56	255 255 255 0	56 56
+Image combo_shift[2] pic\shift.png	0 0 512 210	4 192 56 26	255 255 255 192	512 210
+
+Image press_state0_rc pic\ui.png	440 120 65 19	390 252 65 19
+Image press_state1_rc pic\ui.png	301 120 65 19	390 252 65 19
+Image press_state2_rc pic\ui.png	376 120 65 19	390 252 65 19
+Image press_state3_rc pic\ui.png	440 139 47 19	390 252 47 19
+Image press_state4_rc pic\ui.png	301 139 65 19	390 252 65 19
+Image press_state5_rc pic\ui.png	376 139 65 19	390 252 65 19
+Image press_state6_rc pic\ui.png	301 158 79 18	390 252 79 18
+
+
+Image logo1 pic\logo_gamemaster.png 0 0 1920 1080 0 0 480 272
+Image logo2 pic\logo_thirdparty.png 0 0 1920 1080 0 0 480 272
+Image logo3 pic\logo_iVocaloid.png 16 120 480 272 0 0 480 272
+Image logo4 pic\logo_SEGA.jpg 0 0 1920 1080 0 0 480 272
+
+# progress bar
+Image progress_bar_front pic\progress_bar.png 	0 142 512 36 	0 268 480 5	255 255 255 128
+Image progress_bar_back pic\progress_bar.png 	0 9 512 50 	0 268 480 5	255 255 255 64
+Image progress_bar_pointer pic\progress_bar.png 0 256 64 64 	-12 -20 24 24	255 255 255 240
+
+
+# Particle
+Float spin_angle_speed 0.005
+Float spin_radius_speed 25.0
+Float Q_fade -0.0008
+Int S_fade -2
+Int F_fade -14
+Float tail_spread1 0.1
+Float tail_spread2 0.025
+Float video_auto_dim 0.00085
+Float single_line_inc 0.333333
+Float double_line_inc 0.666666
+Float double_line_twist_factor 0.03
+Float double_line_space_factor 2.0
+Float comet_line_inc 0.333333
+Float strip_note_size 30
+Float note_size 24
+Float meta_size 24
+Float arrow_head 0.375
+Int spin_angle_inc[2] 20 40
+Float FPS_prune_threashold 1.5
+
+# Menu
+Image songmenu_back pic\menu_back.png 		16 120 480 272	0 0 480 272
+Image songmenu_back_win pic\menu_back_win.png 	16 120 480 272	0 0 480 272
+Image songmenu_back_fail pic\menu_back_fail.png 16 120 480 272	0 0 480 272
+
+# Characters
+Image Hatsune_Miku pic\Role.png 	0 -10 150 290 -70 -130 135 270
+Image Megurine_Luka pic\Role.png 	181 0 150 290 -70 -130 135 270
+Image Kagamine_Rin pic\Role.png	        361 0 150 290 -70 -130 135 270
+Image Kagamine_Len pic\Role.png 	541 0 150 290 -70 -130 135 270
+Image MEIKO pic\Role.png                20 330 150 290 -70 -130 135 270
+Image KAITO pic\Role.png                181 330 150 290 -70 -130 135 270
+Image Haku pic\Role.png                 361 330 150 290 -70 -130 135 270
+Image Neru pic\Role.png                 541 330 150 290 -70 -130 135 270
+Image Teto pic\Role.png                 20 650 150 290 -70 -130 135 270
+Image GUMI pic\Role.png                 181 650 150 290 -70 -130 135 270
+Image IA pic\Role.png                   541 650 150 290 -70 -130 135 270

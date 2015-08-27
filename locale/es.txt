@@ -1,0 +1,134 @@
+Español
+Tamaño de la ventana:
+Volumen:
+No se puede encontrar\narchivo del juego\nNo puede jugar
+Elija canciones para jugar,\nprevisualización PV o Demo
+Búsqueda de nuevos paquetes de la versión de la canción\nen Diva Mapa Online Wiki\nHaga clic para Ir a la página wiki
+En Diva OL, se puede jugar con\notros jugadores a través de Internet\nHaga clic para obtener más información
+Diseño de teclado Config,\ntamaño de la ventana y el volumen de sonido
+Ver fotos de Miku y\nalbum de fotos
+Manual Mostrar Juego\nhttp://www.gamemastercn.com\nDerechos de autor pertenece a SEGA
+Salir Del Juego
+Tamaños de ventana disponibles:
+\nCambiar el volumen\nefectos de sonido\nPulse &lt;Intro&gt; para oír golpear sonido
+\n\nRestablecer todos los ajustes por defecto
+PAUSA
+CONTINUAR
+VOLVER A EMPEZAR
+VOLVER AL MENÚ
+Lista está vacía
+Juego Personalizado
+Juego Personalizado (lista vacía)
+Modo Carrera (no disponible)
+Modo multijugador (no disponible)
+Ajustes
+CG Prevista
+Ayuda de juego
+Salir del juego
+MENÚ
+Autor
+Fácil
+Normal
+Duro
+Extra
+Morir
+Estrella
+Dificultad:%s\nNivel de la estrella:%d \n\nMejor puntuación:%.7d\nCombo Max:%.4d\nMejor resultado:%s\nd>%d
+(Pantalla Completa)
+REINTEN
+RETORNO
+Restablecen a los predeterminados
+
+Idioma:
+Inglés
+Partícula Efecto:
+Cambiar idioma que se muestra:\n
+Cambie sistema de partículas:\n0: ninguna partícula (el más rápido)\n1: la cola sola (rápida)\n2: cola doble (normal)\n3: cola de cometa (más lento)
+Pulse &lt;Intro&gt; para cambiar\n\n[Si mantiene pulsado varias claves\npara asignar varias claves\na la misma tecla]
+Times New Roman
+Courier New
+Arial
+(N / A)
+Misstake
+Barato
+Estándar
+Gran
+Perfecto
+Times New Roman
+OFF
+BAJA
+MEDIO
+ALTA
+Gancho Global teclado fracasado, de alta precisión de captura de entrada de teclado no está disponible.\r\nSi un aviso de firewall tiene pop-up, deje por favor!
+Captura Key
+Mostrar FPS
+Activado
+Discapacitado
+OFF
+EN
+ON (OSD)
+Mostrar FPS\n(cuadros por segundo)\n1. No se repite\n2. Mostrar en el título de la ventana\n3. Visualización en pantalla
+\n\n0: entrada de tecla normal WM_KEYDOWN\n1: Global KeyHook WH_KEYBOARD_LL\n2: Uso DirectInput
+CurrFPS =%.2f, AvgFPS =%.2f
+Fracasado
+Auto Pause
+Nunca
+PlayOnly
+Siempre
+Método de pausa automática:\n1. Nunca pausa\n2. Sólo en el juego en modo\n3. Alway pausa
+Calidad De Video
+Convertir vídeo de MP4 a AVI\npara salvar la CPU\n0: MP4 (sin conversión)\n1: más caros AVI calidad\n9: calidad más baja AVI
+IU Juego
+\nElija piel UI:\nVer gamedata * .txt\nRange: 1 ~ 5\nEncienda &lt;Bloq Mayús&gt; para vista previa
+AVI Resolución:\n1 ~ 3: 1024x576\n4 ~ 6: 640x360\n7 ~ 9: 480x270
+Costumbre
+Por favor, pulse ↑ ↓ ← → △ × □ ○ en secuencia
+Pulse &lt;ESC&gt; para cancelar, &lt;Retroceso&gt; para clave anterior
+Pulse &lt;Intro&gt; para confirmar, pulse &lt;ESC&gt; para cancelar
+Fuente
+\nCambie la interfaz de usuario de la fuente:\nTimes New Roman\nCourier New\nArial
+Espacio
+o
+Antialiasing
+El modo Anti-aliasing:\n0: (OFF) tira sorteo de software (más lento)\n1: (ON) de hardware más bajo (el más rápido)\n...\nN: (ON) de hardware más alto (más lento)\n\nOpción actual:\n
+Juicio
+Estándar
+Estricto
+Anotando método clave:\nStandard: clave erróneamente presionado\nNo cancelará la siguiente nota\nEstricto: clave erróneamente presionado\nCancelaremos la siguiente nota\nsi dentro de plazo
+(OFF)\nMuy lento en la elaboración de tiras largas
+Nota Delay Ajuste
+Teclado de compensación de retraso
+DelayCompen
+\nTeclado de compensación de retraso\nUnidad: en milisegundos\nNO afecta retraso sonido de las teclas\nPresione F5 / F6 durante el juego hace mismo
+1. Durante el juego, active Bloq Mayús para evitar la muerte. Sin embargo, una vez que HP ha ido por debajo de 0, indicador de HP se volverá negro, resultado final siempre será &#39;ERROR&#39;\n2. Durante el juego, pulse F1 ~ F4 para ajustar y guardar el retardo nota al mapa actual (ver calibration.inf en la carpeta de esa canción), presione F5 / F6 para ajustar y guardar la compensación de retardo teclado, pulse RePág / AvPág para ajustar y guardar el volumen de la canción actual\n3. Pulse / - para ajustar el tempo de la música (mantener el mismo tono), pulse F11 / F12 para ajustar el tono de la música (mantener el mismo ritmo de juego), presione F7 / F8 para ajustar la velocidad del movimiento de la cola\n4. Cuando PitchShiftDSP está desactivada, el terreno de juego no se puede cambiar independientemente del tempo, (sólo se cambia la frecuencia de muestreo), pero la latencia de música / retraso es mínimo\n5. Para cambiar la dirección de la carpeta canción, agregue la siguiente línea a config.ini, songPath = [my_song_folder_path] \\n6. La carpeta canción puede contener subcarpetas ahora para que pueda reorganizar su colección de canciones\n7. Haga clic en la barra de progreso para buscar la pista a esa posición, pulse &lt;Tab&gt; para buscar la pista a la anterior posición de buscar la pista; Sin embargo, al hacerlo resultará en &#39;ERROR&#39; para el marcador final
+Ayuda de juego
+Volumen
+Play Speed
+Velocidad Tail
+Mantenga Pitch
+Mantener el mismo terreno de juego\ncuando la velocidad de reproducción cambia\n\nPuede causar retraso música\nen computadoras lentas
+Brea
+Tempo
+Semitone (s)
+Sistema de sonido
+Cambiar el sistema de sonido:\nFMOD tiene mejor precisión temporal\n relación de cambio de tono no puede exceder de 2\nBAJO tiene relación de paso de cambio más amplio\n pero la precisión temporal más pobre
+Cubo de DIVA
+Ayuda:\nF2: blink cubos desplazados\nF4: Shuffle\nF5: Cubo de reinicio\n1 ~ 9: resaltar enésima cubo exterior\n~: Cancelar destacado\nRetroceso / Izquierda: Mover Anterior\nDerecha: Next Move\n / =: Culminante capa exterior\n- / _: Culminante capa interna\nRePág: girar más rápido\nAvPág: girar más lento
+Orden (NxNxN):
+Dim Cubos Distante
+Modo Draw
+Rollback rubricar
+Resolver por la fórmula órbita
+rápido
+exacto
+Aceptar / Reset
+Guardar
+Carga
+Barajada
+Resuelto! ¡Enhorabuena!
+Goto Historia
+Direccional
+Sólido
+Este video no está soportado por el descodificador de vídeo actual, haga clic en &quot;Sí&quot; para instalar el decodificador, haga clic en &#39;NO&#39; para convertir el vídeo, haga clic en &quot;Cancelar&quot; para continuar el juego sin vídeo.
+Error al cargar el archivo de audio!
+Estilo de teclado:

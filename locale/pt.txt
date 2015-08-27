@@ -1,0 +1,134 @@
+Português
+Tamanho da janela:
+Volume:
+Não é possível localizar\narquivo do jogo\nNão pode jogar
+Escolha músicas para tocar,\nPV visualização ou Demo
+Procurar por novos pacotes de versão da canção\nno Diva Online Map Wiki\nClique para goto página Wiki
+Em Diva OL, você pode jogar com\noutros jogadores através da Internet\nClique para obter detalhes
+Layout de teclado Config,\ntamanho da janela e volume do som
+Veja as fotos de Miku e\nálbum de fotografias
+Manual do game show\nhttp://www.gamemastercn.com\nDireitos de autor pertence a SEGA
+Sair do Jogo
+Tamanhos de janela disponíveis:
+\nAlterar o volume\nefeitos de som\nPressione &lt;Enter&gt; para ouvir bater som
+\n\nRedefinir todas as configurações para o padrão
+PAUSA
+CONTINUAR
+REINICIAR
+VOLTAR AO MENU
+Lista está vazio
+Jogo personalizado
+Jogo Personalizado (lista vazia)
+Modo Carreira (não disponível)
+Modo Multiplayer (não disponível)
+Definições
+CG Prévia
+Jogo Ajuda
+Jogo Exit
+MENU
+Autor
+Fácil
+Normal
+Duro
+Extra
+Morrer
+Estrela
+Dificuldade:%s\nNível estrelas:%d \n\nMelhor pontuação:%.7d\nCombo Max:%.4d\nMelhor resultado:%s\nd>%d
+(Tela Cheia)
+RETRY
+RETORNO
+Restaurar ao padrão
+
+Idioma:
+Inglês
+Partículas Efeito:
+Alterar o idioma apresentado:\n
+Alterar sistema de partículas:\n0: nenhuma partícula (mais rápido)\n1: cauda única (rápido)\n2: cauda dupla (normal)\n3: cauda de cometa (mais lento)
+Pressione &lt;Enter&gt; para mudar\n\n[Mantendo várias chaves\npara mapear várias chaves\npara a mesma chave]
+Times New Roman
+Courier New
+Arial
+(N / D)
+Misstake
+Barato
+Padrão
+Grande
+Perfeito
+Times New Roman
+OFF
+LOW
+MÉDIO
+ALTA
+Gancho de teclado global falhou, de alta precisão captura de entrada de teclado não está disponível.\r\nSe um aviso de firewall tem pop-up, por favor aguarde!
+Captura de chave
+Mostrar FPS
+Ativado
+Inválido
+OFF
+ON
+ON (OSD)
+Mostrar FPS\n(quadros por segundo)\n1. Não mostrar\n2. Mostrar no título da janela\n3. Em exibição na tela
+\n\n0: entrada de chave normal WM_KEYDOWN\n1: global KeyHook WH_KEYBOARD_LL\n2: Use DirectInput
+CurrFPS =%.2f, AvgFPS =%.2f
+Fracassado
+Auto Pause
+Nem
+PlayOnly
+Sempre
+Método pausa Auto:\n1. Nunca pausa\n2. No play-modo somente\n3. Alway pausa
+Qualidade De Vídeo
+Converter vídeo de MP4 para AVI\npara salvar CPU\n0: MP4 (sem conversão)\n1: mais alta qualidade AVI\n9: menor qualidade AVI
+Jogo UI
+\nEscolha pele UI:\nVeja gamedata * .txt\nFaixa de corrente: 1 ~ 5\nLigue &lt;CapsLock&gt; para pré-visualização
+AVI Resolução:\n1 ~ 3: 1024x576\n4 ~ 6: 640x360\n7 ~ 9: 480x270
+Personalizado
+Por favor, pressione ↑ ↓ ← → △ × □ ○ em seqüência
+Pressione &lt;Esc&gt; para cancelar, &lt;Backspace&gt; a chave anterior
+Pressione &lt;Enter&gt; para confirmar, pressione &lt;Esc&gt; para cancelar
+Fonte
+\nMudar UI da letra:\nTimes New Roman\nCourier New\nArial
+Espaço
+ou
+Anti Aliasing
+Modo Anti-aliasing:\n0: (OFF) tira empate software (mais lento)\n1: (ON) hardware mais baixo (mais rápido)\n...\nN: (ON) hardware mais alta (mais lento)\n\nOpção atual:\n
+Julgamento
+Padrão
+Estrito
+Marcando método chave:\nStandard: chave indevidamente pressionado\nNão cancelará a próxima nota\nStrict: chave indevidamente pressionado\nCancelará a próxima nota\nse dentro de prazo
+(OFF)\nMuito lento na elaboração tiras longas
+Nota de Ajuste de atraso
+Teclado Delay Compensation
+DelayCompen
+\nTeclado Delay Compensation\nUnidade: em milissegundos\nNão afeta chave atraso de som\nPressione F5 / F6 durante o jogo faz mesmo
+1. Durante jogo, ligue CapsLock para evitar &quot;morte&quot;. No entanto, uma vez que a HP tem ido abaixo de 0, HP calibre vai ficar preta, resultado final será sempre &quot;erro&quot;\n2. Durante jogo, pressione F1 ~ F4 para ajustar e salvar atraso nota ao mapa atual (ver calibration.inf na pasta que da canção), pressione F5 / F6 para ajustar e salvar compensação de atraso teclado, pressione PageUp / PageDown para ajustar e salvar o volume da música atual\n3. Pressione / - para ajustar o tempo de música (manter o mesmo pitch), pressione F11 / F12 para ajustar o tom da música (manter o mesmo ritmo), pressione F7 / F8 para ajustar a velocidade do movimento da cauda\n4. Quando PitchShiftDSP está desativado, o campo não pode ser alterado independentemente do tempo, (apenas a taxa de amostragem for alterado), mas a latência de música / atraso é mínimo\n5. Para alterar o endereço da pasta música, adicione a seguinte linha ao config.ini, songPath = [my_song_folder_path] \\n6. A pasta canção pode conter sub-pastas agora para que você possa reorganizar sua coleção de músicas\n7. Clique na barra de progresso para buscar faixa a essa posição, pressione &lt;Tab&gt; para buscar faixa à anterior posição buscar-track; no entanto, isso irá resultar em &quot;erro&quot; para a pontuação final
+Jogo Ajuda
+Volume
+Play Speed
+Cauda velocidade
+Mantenha Afastamento
+Manter o mesmo passo\nquando muda a velocidade de reprodução\n\nPode causar atraso música\nem computadores lentos
+Arremesso
+Tempo
+Semitom (s)
+Sistema de som
+Alterar sistema de som:\nFMOD tem uma melhor precisão temporal,\n rácio elevar-pitch não pode exceder 2\nBASS tem mais vasta proporção elevar-pitch\n mas mais pobre precisão temporal,
+Cubo de DIVA
+Socorro:\nF2: blink cubos deslocados\nF4: aleatória\nF5: redefinição de cubo\n1 ~ 9: destacar Nth cubo ultraperiférica\n~: Cancelar destaque\nBackspace / Esquerda: Mover Anterior\nDireita: Next Move\n / =: Camada externa destaque\n- / _: Camada interna destaque\nPageUp: girar mais rápido\nPageDown: rodar mais lento
+Order (NxNxN):
+Dim Cubes Distante
+Modo de Desenho
+Reversão para rubricar
+Resolver pela fórmula órbita
+rápido
+exato
+OK / Reset
+Salvar
+Carga
+Embaralhar
+Resolvido! Parabéns!
+Goto História
+Direcional
+Sólido
+Este vídeo não é suportada pelo decodificador de vídeo atual, clique em &#39;SIM&#39; para instalar o decodificador, clique em &#39;NO&#39; para converter este vídeo, clique em &#39;Cancelar&#39; para continuar o jogo sem vídeo.
+Falha ao carregar o arquivo de áudio!
+Estilo do teclado:

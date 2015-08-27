@@ -1,0 +1,134 @@
+Deutsch
+Fenstergröße:
+Volume:
+Kann nicht gefunden werden\nSpiel-Datei\nKann nicht spielen
+Wählen Sie Songs zu spielen,\nVorschau PV oder Demo
+Suche nach neuesten Version Song-Pakete\nbei Diva Online Map Wiki\nKlicken Sie hier um goto die Wiki-Seite
+In Diva OL, können Sie mit spielen\nandere Spieler über das Internet\nKlicken Sie für Details
+Config Tastaturlayout\nFenstergröße und Lautstärke
+Mikus Bilder anzuzeigen und\nFotoalbum
+Game Show Handbuch\nhttp://www.gamemastercn.com\nCopyright gehört SEGA
+Spiel beenden
+Erhältlich Fenstergrößen:
+\nÄndern Sie die Lautstärke\nvon Sound-Effekte\nDrücken Sie &lt;Enter&gt;, um zu hören Hit-Sound
+\n\nSetzen Sie alle Einstellungen auf die Standard
+PAUSE
+WEITER
+NEUSTART
+ZURÜCK ZUM MENÜ
+Liste ist leer
+Eigene Spiele
+Eigene Spiele (leere Liste)
+Karriere-Modus (nicht verfügbar)
+Multiplayer-Modus (nicht verfügbar)
+Einstellungen
+CG Vorschau
+Spiel Hilfe
+Spiel Beenden
+MENU
+Verfasser
+Leicht
+Normal
+Schwer
+Extra
+Sterben
+Star
+Schwierigkeit:%s\nStar Level:%d \n\nBeste Punktzahl:%.7d\nCombo Max:%.4d\nBestes Ergebnis:%s\nd>%d
+(Vollbild)
+RETRY
+RETURN
+Auf Standard zurücksetzen
+
+Sprache:
+Englisch
+Particle Effect:
+Ändern angezeigte Sprache:\n
+Ändern Partikelsystem:\n0: kein Teilchen (am schnellsten)\n1: single tail (schnell)\n2: Doppelschwanz (normal)\n3: Kometenschweif (langsamste)
+Drücken Sie &lt;Enter&gt;, um zu ändern\n\n[Mehrere Tasten gedrückt halten,\nmehrere Tasten Karte\nauf der gleichen Taste]
+Times New Roman
+Courier New
+Arial
+(N / A)
+Misstake
+Billig
+Standard
+Großartig
+Perfekt
+Times New Roman
+OFF
+LOW
+MEDIUM
+HOCH
+Globale Tastatur-Hook gescheitert, hochpräzise Erfassung Tastatureingaben nicht verfügbar ist.\r\nWenn eine Firewall Ankündigung hat Pop-up, erlauben Sie bitte!
+Key Capture-
+Show FPS
+Aktiviert
+Behindert
+OFF
+ON
+ON (OSD)
+Show FPS\n(Frames pro Sekunde)\n1. nicht mehr anzeigen\n2. Auf der Fenstertitel\n3. On-Screen-Display
+\n\n0: Normal Tasteneingabe WM_KEYDOWN\n1: Globale Keyhook WH_KEYBOARD_LL\n2: Verwenden von Directinput
+CurrFPS =%.2f, AvgFPS =%.2f
+Fehlgeschlagen
+Auto Pause
+Nie
+PlayOnly
+Immer
+Auto Pause-Methode:\n1. Nie Pause\n2. Wählen Sie im Play-Modus nur\n3. Alway Pause
+Video-Qualität
+Video von MP4 in AVI\num CPU speichern\n0: MP4 (keine Konvertierung)\n1: höchste Qualität AVI\n9: niedrigste Qualität AVI
+Spiel UI
+\nWählen Sie UI Haut:\nSiehe game * .txt\nAktueller Bereich: 1 ~ 5\nSchalten Sie &lt;CapsLock&gt; zur Vorschau
+AVI Entschließung:\n1 ~ 3: 1024x576\n4 ~ 6: 640x360\n7 ~ 9: 480x270
+Brauch
+Bitte drücken Sie ↑ ↓ ← → △ × □ ○ in Folge
+Drücken Sie &lt;ESC&gt;, um abzubrechen, &lt;Rücktaste&gt; zur vorherigen Schlüssel
+Drücken Sie &lt;Enter&gt;, um zu bestätigen, drücken Sie &lt;ESC&gt;, um abzubrechen
+Schrift
+\nÄndern Sie UI Schriftart:\nTimes New Roman\nCourier New\nArial
+Raum
+oder
+Kantenglättung
+Anti-Aliasing-Modus:\n0: (OFF) Software-Zugband (langsam)\n1: (ON) Hardware niedrigsten (am schnellsten)\n...\nN: (ON) Hardware höchsten (am langsamsten)\n\nAktuelle Option:\n
+Judgement
+Standard
+Streng
+Scoring-Key-Verfahren:\nStandard: falsch gedrückte Taste\nNICHT die nächste Note aufheben\nStrict: falsch gedrückte Taste\nWird die nächste Note aufheben\nwenn innerhalb von Zeitrahmen
+(OFF)\nSehr langsam bei der Erstellung lange Streifen
+Hinweis Verzögerung einstellen
+Keyboard Delay Compensation
+DelayCompen
+\nKeyboard Delay Compensation\nEinheit: in Millisekunden\nHat keinen Einfluss auf Tastentöne Verzögerung\nDrücken Sie F5 / F6 während des Spiels tut gleichen
+1. Während des Spiels, schalten Sie CapsLock zu &quot;Tod&quot; zu verhindern. Allerdings, wenn HP hat unter 0 weg, HP Lehre wird schwarz, Endergebnis drehen wird immer &quot;Fehler&quot; sein\n2. Während des Spiels, drücken Sie F1 ~ F4 einzustellen und zu speichern note Verzögerung auf der aktuellen Karte (siehe calibration.inf in den Ordner des Songs), drücken Sie F5 / F6 zu justieren und speichern Sie Tastatur Delay-Kompensation, drücken Bild auf / ab, sich anzupassen und zu speichern das Volumen des aktuellen Songs\n3. Drücken Sie / -, um Musik Tempo (pflegen die gleiche Tonhöhe), drücken Sie F11 / F12 anpassen, um die Tonlage (dasselbe Tempo zu halten), drücken Sie F7 / F8 anpassen, um die Geschwindigkeit der Schwanzbewegung einstellen\n4. Wenn PitchShiftDSP deaktiviert ist, die Tonhöhe nicht unabhängig vom Tempo, (nur die Abtastrate geändert wird) geändert werden, aber die Musik Latenz / Verzögerung ist minimal\n5. Um die Song-Ordner Adresse zu ändern, fügen Sie die folgende Zeile in config.ini, songPath = [my_song_folder_path] \\n6. Die Song-Ordner kann Unterordner enthalten jetzt, damit Sie Ihre Sammlung von Songs kann reorganisieren\n7. Klicken Sie auf die Fortschrittsanzeige, um zu verfolgen, um diese Position zu suchen, drücken Sie &lt;Tab&gt;, um zur vorherigen Spur zu suchen-Spur-Position zu suchen; aber dabei wird in &quot;Fehler&quot; für die endgültige Punktezahl
+Spiel Hilfe
+Volumen
+Spielen Speed
+Schwanz Geschwindigkeit
+Halten Sie Pitch
+Pflegen Sie die gleiche Steigung\nwenn Wiedergabegeschwindigkeit ändert\n\nKann Musik Verzögerung verursachen\nauf langsamen Computern
+Pech
+Tempo
+Halbton (n)
+Soundsystem
+Ändern Sie Soundsystem:\nFMOD hat eine bessere zeitliche Genauigkeit\n Pitch-Shift-Verhältnis 2 nicht überschreiten\nBASS breitere Pitch-Shift-Verhältnis\n aber schlechtere zeitliche Genauigkeit
+DIVA Würfel
+Hilfe:\nF2: blink verschoben Würfel\nF4: Shuffle\nF5: Reset-cube\n1 ~ 9: Markieren Nth äußersten cube\n~: Höhepunkt stornieren\nBackspace / links: Vorheriges Verschieben\nRechts: Next Move\n / =: Highlight äußere Schicht\n- / _: Highlight Innenschicht\nPageUp: schneller drehen\nPagedown: langsamer drehen
+Order (NxNxN):
+Dim Distant Cubes
+Draw Mode
+Rollback auf initial
+Lösen von Orbit Formel
+schnell
+richtig
+OK / Reset
+Speichern
+Last
+Shuffle
+Gelöst! Herzlichen Glückwunsch!
+Goto Geschichte
+Richtungs-
+Solide
+Dieses Video ist nicht von der aktuellen Video-Decoder unterstützt, klicken Sie auf &quot;JA&quot;, um Decoder installieren, klicken Sie auf &quot;Nein&quot;, um dieses Video zu konvertieren, klicken Sie auf &quot;Abbrechen&quot;, um das Spiel, ohne Video.
+Fehler beim Laden der Audiodatei geladen werden!
+Tastatur-Art:

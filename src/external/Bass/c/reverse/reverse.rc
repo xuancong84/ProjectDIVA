@@ -1,0 +1,23 @@
+#include "windows.h"
+#include "reverse.h"
+
+1000 DIALOG DISCARDABLE  0, 0, 111, 153
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "BASS_FX reverse with tempo & dx8 fx"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "click here to open a file && play it...",ID_OPEN,0,0,
+                    111,20
+    CTEXT           "Volume",IDC_STATIC,10,26,35,8
+    CTEXT           "Playing position: 00:00 / 00:00",IDC_SPOS,5,105,100,8
+    SCROLLBAR       IDC_VSRVB,5,60,50,40,SBS_VERT | WS_TABSTOP
+    CTEXT           "DX8 Reverb",IDC_STATIC,5,50,50,8
+    CTEXT           "Tempo = 0%",IDC_STEMPO,59,25,52,8
+    CONTROL         "Slider1",IDC_POS,"msctls_trackbar32",TBS_NOTICKS | 
+                    WS_TABSTOP,5,115,100,15
+    CONTROL         "Slider2",IDC_TEMPO,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | WS_TABSTOP,70,35,30,65
+    CONTROL         "Slider3",IDC_VOLUME,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,5,36,50,11
+    PUSHBUTTON      "Playing Direction - Reverse",IDC_BTNDIR,3,134,105,15
+END

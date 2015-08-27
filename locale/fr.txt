@@ -1,0 +1,134 @@
+Français
+Taille de la fenêtre:
+Volume:
+Impossible de localiser\nfichier de jeu\nNe peut pas jouer
+Choisissez des chansons à jouer,\naperçu PV ou Démo
+Recherche de nouveaux packages la version de la chanson\nau Diva ligne Carte Wiki\nCliquez pour goto la page Wiki
+Dans Diva OL, vous pouvez jouer avec\nd&#39;autres joueurs à travers l&#39;Internet\nCliquez pour plus de détails
+Config disposition de clavier,\ntaille de la fenêtre et le volume sonore
+Voir les photos de Miku et\nphoto album
+Manuel émission de jeu\nhttp://www.gamemastercn.com\nDroit d&#39;auteur appartient à SEGA
+Quitter Le Jeu
+Disponible tailles de fenêtre:
+\nModifier le volume\neffets sonores\nAppuyez sur &lt;Entrée&gt; pour entendre frapper son
+\n\nRétablir les paramètres par défaut
+PAUSE
+CONTINUER
+REDÉMARRAGE
+RETOUR AU MENU
+Liste est vide
+Partie personnalisée
+Partie personnalisée (liste vide)
+Mode Carrière (non disponible)
+Mode multijoueur (non disponible)
+Paramètres
+CG Aperçu
+Aide de jeu
+Exit Game
+MENU
+Auteur
+Facile
+Normal
+Dur
+Supplémentaire
+Mourir
+Étoile
+Difficulté:%s\nNiveau de l&#39;étoile:%d \n\nMeilleur score:%.7d\nCombo Max:%.4d\nMeilleur résultat:%s\nd>%d
+(Plein Écran)
+REPR
+RETOUR
+Réinitialiser
+
+Langue:
+Anglais
+Effet de particules:
+Changer la langue affichée:\n
+Changer le système de particules:\n0: aucune particule (le plus rapide)\n1: seule la queue (rapide)\n2: queue double (normal)\n3: queue de comète (plus lent)
+Appuyez sur &lt;Entrée&gt; pour changer\n\n[Maintenez les touches multiples\npour mapper les touches multiples\nà la même touche]
+Times New Roman
+Courier New
+Arial
+(N / A)
+Misstake
+Pas cher
+Standard
+Grand
+Parfait
+Times New Roman
+OFF
+LOW
+MEDIUM
+HIGH
+Clavier crochet mondial échoué, haute précision entrée du clavier de capture ne sont pas disponibles.\r\nSi un avis de pare-feu a pop up, s&#39;il vous plaît permettre!
+Capturer Key
+Afficher FPS
+Activé
+Handicapé
+OFF
+ON
+(OSD)
+Afficher FPS\n(images par seconde)\n1. Ne pas montrer\n2. Montrer sur le titre de la fenêtre\n3. Sur l&#39;écran d&#39;affichage
+\n\n0: entrée normale de la clé WM_KEYDOWN\n1: Global KeyHook WH_KEYBOARD_LL\n2: Utilisation DirectInput
+CurrFPS =%.2f, AvgFPS =%.2f
+Manqué
+Auto Pause
+Jamais
+RegarderOnly
+Toujours
+méthode de pause automatique:\n1. Ne jamais pause\n2. Dans le jeu en mode uniquement\n3. Alway pause
+Qualité vidéo
+Convertir la vidéo de MP4 to AVI\npour sauver CPU\n0: MP4 (pas de conversion)\n1: haute qualité AVI\n9: plus faible qualité AVI
+interface de jeu
+\nChoisissez peau UI:\nVoir gamedata * .txt\nGamme de courant: 1 ~ 5\nTournez sur &lt;Verr Maj&gt; pour aperçu
+AVI Résolution:\n1 ~ 3: 1024x576\n4 ~ 6: 640x360\n7 ~ 9: 480x270
+Coutume
+S&#39;il vous plaît appuyez sur ↑ ↓ ← → △ × □ ○ en séquence
+Appuyez sur &lt;ESC&gt; pour annuler, &lt;Retour&gt; pour clé précédente
+Appuyez sur &lt;Entrée&gt; pour confirmer, appuyez sur &lt;ESC&gt; pour annuler
+Fonte
+\nChanger l&#39;interface utilisateur de la police:\nTimes New Roman\nCourier New\nArial
+Espace
+ou
+Anticrénelage
+Le mode anti-aliasing:\n0: (OFF) bande de tirage de logiciels (plus lent)\n1: (ON) le matériel le plus bas (le plus rapide)\n...\nN: (ON) le matériel le plus élevé (plus lent)\n\nL&#39;option en cours:\n
+Jugement
+Standard
+Strict
+Marquant méthode clé:\nStandard: clé tort pressé\nNE SERA PAS annuler la note suivante\nStrict: clé tort pressé\nAnnulera la note suivante\nsi dans les délais
+(OFF)\nTrès lent dans l&#39;élaboration de longues bandes
+Remarque Réglage de la temporisation
+Clavier compensation de retard
+DelayCompen
+\nClavier compensation de retard\nUnité: en millisecondes\nN&#39;a pas d&#39;incidence retard de son clavier\nAppuyez sur F5 / F6 pendant le jeu fait même
+1. Au cours de jeu, activez Verr Maj pour empêcher &#39;la mort&#39;. Cependant, une fois HP est passé en dessous de 0, jauge HP devient noir, résultat final sera toujours «erreur»\n2. Au cours de jeu, appuyez sur F1 ~ F4 pour régler et enregistrer la note de retard à la carte actuelle (voir calibration.inf dans le dossier de la chanson), appuyez sur F5 / F6 pour régler et enregistrer clavier compensation de retard, appuyez sur PageUp / PageDown pour ajuster et d&#39;économiser le volume de la chanson en cours\n3. Appuyez sur / - pour ajuster la musique tempo (maintenir la même hauteur), appuyez sur F11 / F12 pour régler le ton de la musique (maintenir le même tempo), appuyez sur F7 / F8 pour ajuster la vitesse de déplacement de la queue\n4. Lorsque PitchShiftDSP est désactivé, le terrain ne peut pas être modifié indépendamment du tempo, (seul le taux d&#39;échantillonnage est modifiée), mais la musique de latence / délai est minime\n5. Pour changer l&#39;adresse du dossier de la chanson, ajoutez la ligne suivante à config.ini, songPath = [my_song_folder_path] \\n6. Le dossier de la chanson peut contenir des sous-dossiers maintenant afin que vous pouvez réorganiser votre collection de chansons\n7. Cliquez sur la barre de progression de chercher la bonne voie pour ce poste, appuyez sur &lt;Tab&gt; pour chercher la bonne voie pour obtenir la position précédente piste; Toutefois, cela se traduira dans «erreur» pour le score final
+Aide de jeu
+Volume
+Vitesse de lecture
+Vitesse Tail
+Gardez Emplacement
+Maintenir la même hauteur\nlorsqu&#39;il change la vitesse de lecture\n\nPeut causer de la musique retard\nsur les ordinateurs lents
+Terrain
+Tempo
+Semitone (s)
+Systeme audio
+Changer le système sonore:\nFMOD a une meilleure précision temporelle\n rapport pitch-shift ne peut pas dépasser 2\nBASS a large rapport hauteur-shift\n mais pauvre précision temporelle
+Le cube de DIVA
+Aidez-Moi:\nF2: blink cubes déplacées\nF4: Shuffle\nF5: réinitialisation cube\n1 ~ 9: mettre en évidence Nième cube plus à l&#39;extérieur\n~: Annuler clou\nRetour arrière / gauche: Déplacer précédente\nDroite: Next Move\n / =: Highlight couche externe\n- / _: Highlight couche intérieure\nPageUp: tourner plus vite\nPageDown: rotation lente
+Ordre (NxNxN):
+Dim Cubes Distant
+Mode Dessin
+Rollback de parapher
+Résolvez par la formule de l&#39;orbite
+rapide
+précis
+OK / Reset
+Sauvegarder
+Charge
+Battage
+Résolu! Félicitations!
+Goto Histoire
+Directionnel
+Solide
+Cette vidéo est pas pris en charge par le décodeur vidéo actuel, cliquez sur &#39;Oui&#39; pour installer le décodeur, cliquez sur «NON» pour convertir cette vidéo, cliquez sur «Annuler» pour continuer le jeu sans vidéo.
+Impossible de charger le fichier audio!
+Clavier Style:

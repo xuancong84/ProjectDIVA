@@ -1,0 +1,134 @@
+Melayu
+Window Size:
+Jumlah dagangan:
+Tidak dapat mencari\nfail permainan\nTidak boleh bermain
+Memilih lagu-lagu untuk bermain,\nPV pratonton atau Demo
+Cari terbaru pakej lagu versi\ndi Diva Online Peta Wiki\nKlik untuk goto Laman Wiki yang
+Dalam Diva OL, anda boleh bermain dengan\npemain lain melalui Internet\nKlik untuk maklumat lanjut
+Susun atur papan kekunci Config,\nsaiz tetingkap dan kelantangan suara
+Lihat gambar Miku dan\nalbum foto
+Manual Show Permainan\nhttp://www.gamemastercn.com\nHak cipta kepunyaan SEGA
+Berhenti Permainan
+Saiz tetingkap yang sedia ada:
+\nTukar kelantangan\nkesan bunyi\nTekan &lt;Enter&gt; untuk mendengar bunyi melanda
+\n\nTetapkan semula semua tetapan kepada lalai
+PAUSE
+TERUS
+RESTART
+KEMBALI KE MENU
+Senarai adalah kosong
+Permainan Rekaan
+Permainan Rekaan (senarai kosong)
+Mod Kerjaya (tidak ada)
+Multiplayer Mod (tidak ada)
+Tetapan
+CG Preview
+Bantuan Permainan
+Keluar Permainan
+MENU
+Pengarang
+Mudah
+Normal
+Hard
+Tambahan
+Die
+Bintang
+Kesukaran:%s\nTahap Bintang:%d Bintang\n\nSkor terbaik:%.7d\nCombo Max:%.4d\nHasil yang terbaik:%s\nd>%d
+(Skrin penuh)
+Cuba semula
+PULANGAN
+Reset to Default
+
+Bahasa:
+Bahasa Inggeris
+Kesan Zarah:
+Tukar bahasa dipaparkan:\n
+Mengubah sistem zarah:\n0: tiada zarah (paling cepat)\n1: ekor tunggal (cepat)\n2: dua ekor (biasa)\n3: ekor komet (paling perlahan)
+Tekan &lt;Enter&gt; untuk menukar\n\n[Terus menekan beberapa kunci\npeta pelbagai kunci\nkepada kekunci yang sama]
+Times New Roman
+Courier New
+Arial
+(N / A)
+Misstake
+Murah
+Standard
+Great
+Perfect
+Times New Roman
+OFF
+LOW
+SEDERHANA
+TINGGI
+Keyboard cangkuk Global gagal, tinggi ketepatan input papan kekunci tangkap tidak tersedia.\r\nJika notis firewall mempunyai pop up, perkenankan!
+Tangkap Utama
+Show FPS
+Membolehkan
+Orang kurang upaya
+OFF
+ON
+ON (OSD)
+Show FPS\n(Frames sesaat)\n1. Jangan tunjukkan\n2. Show pada tajuk tetingkap\n3. Pada skrin paparan
+\n\n0: input utama Normal WM_KEYDOWN\n1: Global Keyhook WH_KEYBOARD_LL\n2: Gunakan DirectInput
+CurrFPS =%.2f, AvgFPS =%.2f
+Gagal
+Jeda Auto
+Jangan sekali-kali
+PlayOnly
+Sentiasa
+Kaedah jeda Auto:\n1. Jangan sekali-kali jeda\n2. Dalam bermain-mod sahaja\n3. Alway jeda
+Kualiti video
+Menukar video dari MP4 untuk AVI\nuntuk menyelamatkan CPU\n0: MP4 (tiada penukaran)\n1: kualiti tertinggi AVI\n9: kualiti terendah AVI
+UI permainan
+\nPilih UI kulit:\nLihat gamedata * .txt\nRange semasa 1 ~ 5\nMenghidupkan &lt;CapsLock&gt; untuk pratonton
+AVI Resolusi:\n1 ~ 3: 1024x576\n4 ~ 6: 640x360\n7 ~ 9: 480x270
+Custom
+Sila tekan ↑ ↓ ← → △ × □ ○ dalam urutan
+Tekan &lt;ESC&gt; untuk membatalkan, &lt;Backspace&gt; kepada kekunci sebelumnya
+Tekan &lt;Enter&gt; untuk mengesahkan, tekan &lt;ESC&gt; untuk membatalkan
+Font
+\nTukar UI Font:\nTimes New Roman\nCourier New\nArial
+Angkasa
+atau
+Antialias
+Mod anti-aliasing:\n0: (OFF) jalur perisian seri (paling perlahan)\n1: (ON) Perkakasan paling rendah (paling cepat)\n...\nN: (ON) Perkakasan tertinggi (paling perlahan)\n\nPilihan semasa\n
+Penghakiman
+Standard
+Ketat
+Pemarkahan kaedah utama:\nStandard: Kekunci salah ditekan\nTIDAK membatalkan nota seterusnya\nKetat: Kekunci salah ditekan\nAKAN membatalkan nota seterusnya\njika dalam tempoh masa
+(OFF)\nSangat lambat dalam merangka jalur panjang
+Nota Kelewatan Laraskan
+Keyboard Kelewatan Pampasan
+DelayCompen
+\nKeyboard Kelewatan Pampasan\nUnit: dalam milisaat\nTIDAK memberi kesan kelewatan bunyi kekunci\nTekan F5 / F6 semasa permainan tidak sama
+1. Semasa permainan, hidupkan CapsLock untuk mengelakkan &#39;kematian&#39;. Walau bagaimanapun, sebaik sahaja HP ​​telah pergi di bawah 0, HP tolok akan bertukar kepada warna hitam Keputusan akhir, akan sentiasa &#39;kesilapan&#39;\n2. Semasa permainan, tekan F1 ~ F4 untuk menyesuaikan diri dan menyelamatkan kelewatan nota kepada peta semasa (lihat calibration.inf dalam folder yang lagu), tekan F5 / F6 untuk menyesuaikan diri dan menyelamatkan keyboard pampasan kelewatan, tekan PageUp / PageDown untuk menyesuaikan diri dan menyelamatkan jumlah lagu semasa\n3. Tekan / - untuk menyesuaikan muzik tempo (mengekalkan padang yang sama), tekan F11 / F12 untuk melaraskan nada muzik (mengekalkan tempo yang sama), tekan F7 / F8 untuk menyesuaikan kelajuan pergerakan ekor\n4. Apabila PitchShiftDSP adalah orang kurang upaya, padang tidak boleh diubah secara bebas dari tempo itu, (hanya kadar pensampelan ditukar), tetapi muzik latency / kelewatan adalah minimum\n5. Untuk menukar alamat folder lagu, tambah baris berikut untuk config.ini, songPath = [my_song_folder_path] \\n6. folder lagu mungkin mengandungi sub-folder sekarang supaya anda boleh menyusun semula koleksi lagu\n7. Klik pada bar kemajuan untuk mendapatkan landasan yang betul untuk kedudukan itu, tekan &lt;Tab&gt; untuk mendapatkan landasan yang betul untuk mendapatkan kedudukan sebelumnya trek; Walau bagaimanapun, ini akan menyebabkan &#39;kesilapan&#39; untuk skor akhir
+Bantuan Permainan
+Jumlah dagangan
+Main Speed
+Tail Speed
+Pastikan Pitch
+Mengekalkan padang yang sama\napabila kelajuan main semula perubahan\n\nBoleh menyebabkan kelewatan muzik\npada komputer lambat
+Pitch
+Tempo
+Semitone (s)
+Soundsystem
+Menukar sistem bunyi:\nFMOD mempunyai ketepatan duniawi yang lebih baik\n nisbah padang syif tidak boleh melebihi 2\nBASS mempunyai nisbah yang lebih luas padang anjakan\n tetapi ketepatan temporal miskin
+Kiub DIVA ini
+Bantuan:\nF2: sekelip kiub pelarian\nF4: shuffle\nF5: kiub set semula\n1 ~ 9: menonjolkan ke- N kiub paling luar\n~: Membatalkan Kemuncak\nBackspace / Kiri: Pindah Sebelumnya\nKanan: Pindah Seterusnya\n / =: Kemuncak lapisan luar\n- / _: Lapisan dalaman Kemuncak\nPageUp: berputar lebih cepat\nPageDown: berputar lebih perlahan
+Perintah (NxNxN):
+Dim Kiub Jauh
+Menarik Mod
+Melakukan pengembalian awal
+Menyelesaikan dengan formula orbit
+cepat
+tepat
+OK / Set semula
+Simpan
+Beban
+Shuffle
+Diselesaikan! Tahniah!
+Goto Sejarah
+Arah
+Pepejal
+Video ini tidak disokong oleh penyahkod video semasa, klik &#39;YA&#39; untuk memasang decoder, klik &#39;NO&#39; untuk menukar video ini, klik &#39;Batal&#39; untuk meneruskan permainan tanpa video.
+Gagal untuk memuatkan fail audio!
+Gaya papan kekunci:

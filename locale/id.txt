@@ -1,0 +1,134 @@
+Indonesia
+Jendela Ukuran:
+Volume:
+Tidak dapat menemukan\nfile game\nTidak bisa bermain
+Pilih lagu untuk bermain,\nPratinjau PV atau Demo
+Cari paket versi lagu terbaru\ndi Diva Peta Online Wiki\nKlik untuk goto halaman Wiki
+Di Diva OL, Anda dapat bermain dengan\npemain lain melalui internet\nKlik untuk rincian
+Config layout keyboard,\nukuran jendela dan volume suara
+Lihat gambar Miku dan\nalbum Foto
+Tampilkan Permainan manual\nhttp://www.gamemastercn.com\nHak Cipta milik SEGA
+Keluar Permainan
+Tersedia ukuran jendela:
+\nMengubah volume\nefek suara\nTekan &lt;Enter&gt; untuk mendengar suara memukul
+\n\nUlang semua pengaturan ke default
+PAUSE
+LANJUTKAN
+MENGULANG KEMBALI
+KEMBALI KE MENU
+Daftar ini Kosong
+Kustom Permainan
+Kustom Permainan (daftar kosong)
+Career Mode (tidak tersedia)
+Multiplayer Mode (tidak tersedia)
+Pengaturan
+CG Preview
+Permainan Bantuan
+Keluar Permainan
+MENU
+Penulis
+Mudah
+Normal
+Keras
+Ekstra
+Mati
+Bintang
+Kesulitan:%s\nBintang Level:%d \n\nSkor terbaik:%.7d\nCombo Max:%.4d\nHasil terbaik:%s\nd>%d
+(Layar Penuh)
+Mencoba kembali
+RETURN
+Ulang ke Default
+
+Bahasa:
+Inggris
+Partikel Efek:
+Mengubah bahasa yang ditampilkan:\n
+Mengubah sistem partikel:\n0: tidak ada partikel (tercepat)\n1: ekor tunggal (cepat)\n2: ekor ganda (normal)\n3: ekor komet (paling lambat)
+Tekan &lt;Enter&gt; untuk mengubah\n\n[Menekan beberapa tombol\nuntuk memetakan beberapa kunci\nuntuk tombol yang sama]
+Times New Roman
+Courier New
+Arial
+(N / A)
+Misstake
+Murah
+Standar
+Besar
+Sempurna
+Times New Roman
+OFF
+RENDAH
+MEDIUM
+TINGGI
+Keyboard hook global yang gagal, presisi tinggi input keyboard capture tidak tersedia.\r\nJika pemberitahuan firewall memiliki pop up, perkenankan!
+Key Tangkap
+Tampilkan FPS
+Diaktifkan
+Cacat
+OFF
+ON
+ON (OSD)
+Tampilkan FPS\n(Frames per detik)\n1. Jangan tampilkan\n2. Tampilkan judul jendela\n3. Pada layar display
+\n\n0: masukan kunci normal WM_KEYDOWN\n1: global keyhook WH_KEYBOARD_LL\n2: Gunakan DirectInput
+CurrFPS =%.2f, AvgFPS =%.2f
+Gagal
+Jeda Auto
+Tak pernah
+PlayOnly
+Selalu
+Metode jeda Auto:\n1. Jangan pernah jeda\n2. Dalam play-modus hanya\n3. Alway jeda
+Video Kualitas
+Mengkonversi video dari MP4 ke AVI\nuntuk menyimpan CPU\n0: MP4 (tidak ada konversi)\n1: kualitas tertinggi AVI\n9: kualitas terendah AVI
+Permainan UI
+\nPilih kulit UI:\nLihat gamedata * .txt\nRentang saat ini: 1 ~ 5\nAktifkan &lt;CapsLock&gt; untuk pratinjau
+AVI Resolusi:\n1 ~ 3: 1024x576\n4 ~ 6: 640x360\n7 ~ 9: 480x270
+Adat
+Silahkan tekan ↑ ↓ ← → △ × □ ○ secara berurutan
+Tekan &lt;ESC&gt; untuk membatalkan, &lt;Backspace&gt; untuk kunci sebelumnya
+Tekan &lt;Enter&gt; untuk konfirmasi, tekan &lt;ESC&gt; untuk membatalkan
+Fon
+\nUbah UI Font:\nTimes New Roman\nCourier New\nArial
+Ruang
+atau
+Antialiasing
+Mode anti-aliasing:\n0: (OFF) software imbang Strip (paling lambat)\n1: (ON) hardware termurah (tercepat)\n...\nN: (ON) hardware tertinggi (paling lambat)\n\nPilihan saat ini:\n
+Penghakiman
+Standar
+Ketat
+Mencetak metode kunci:\nStandar: tombol ditekan salah\nTIDAK AKAN membatalkan catatan berikutnya\nKetat: tombol ditekan salah\nAKAN membatalkan catatan berikutnya\njika dalam jangka waktu
+(OFF)\nSangat lambat dalam menggambar strip panjang
+Catatan Keterlambatan Sesuaikan
+Keyboard Keterlambatan Kompensasi
+DelayCompen
+\nKeyboard Keterlambatan Kompensasi\nUnit: dalam milidetik\nTIDAK mempengaruhi delay suara kunci\nTekan F5 / F6 selama pertandingan tidak sama
+1. Selama pertandingan, menyalakan CapsLock untuk mencegah &#39;kematian&#39;. Namun, setelah HP sudah di bawah 0, HP pengukur akan berubah menjadi hitam, hasil akhir akan selalu &#39;KESALAHAN&#39;\n2. Selama permainan, tekan F1 ~ F4 untuk menyesuaikan dan menyimpan catatan keterlambatan peta saat ini (lihat calibration.inf dalam folder itu lagu), tekan F5 / F6 untuk menyesuaikan dan menyimpan Keyboard keterlambatan kompensasi, tekan PageUp / PageDown untuk menyesuaikan dan menyimpan volume lagu saat\n3. Tekan / - untuk menyesuaikan tempo musik (mempertahankan lapangan yang sama), tekan F11 / F12 untuk menyesuaikan lapangan musik (menjaga tempo yang sama), tekan F7 / F8 untuk menyesuaikan kecepatan gerakan ekor\n4. Ketika PitchShiftDSP dinonaktifkan, lapangan tidak dapat diubah secara independen dari tempo, (hanya sampling rate berubah), tapi latency musik / delay minimal\n5. Untuk mengubah alamat folder lagu, tambahkan baris berikut ke config.ini, songPath = [my_song_folder_path] \\n6. Folder lagu mungkin berisi sub-folder sekarang sehingga Anda dapat mengatur ulang koleksi lagu\n7. Klik pada progress bar untuk mencari jalur untuk posisi itu, tekan &lt;Tab&gt; untuk mencari jalur untuk posisi sebelumnya mencari-track; Namun, hal tersebut akan mengakibatkan &#39;KESALAHAN&#39; untuk skor akhir
+Permainan Bantuan
+Volume
+Bermain Kecepatan
+Ekor Kecepatan
+Jauhkan pitch
+Mempertahankan lapangan yang sama\nketika kecepatan pemutaran berubah\n\nDapat menyebabkan keterlambatan musik\npada komputer yang lambat
+Nada
+Tempo
+Semitone (s)
+SoundSystem
+Mengubah sound system:\nFMOD memiliki akurasi yang lebih baik sementara\n rasio lapangan-pergeseran tidak dapat melebihi 2\nBASS memiliki rasio pitch-pergeseran yang lebih luas\n tapi akurasi sementara miskin
+Kubus DIVA dunia
+Bantuan:\nF2: blink kubus pengungsi\nF4: acak\nF5: ulang kubus\n1 ~ 9: menyoroti N kubus terluar\n~: Membatalkan sorot\nBackspace / Kiri: Pindahkan Sebelumnya\nKanan: Pindahkan Berikutnya\n / =: Sorot lapisan luar\n- / _: Sorot lapisan dalam\nPageUp: memutar lebih cepat\nPageDown: memutar lambat
+Order (NxNxN):
+Dim Cubes Jauh
+Menggambar mode
+Rollback untuk awal
+Memecahkan dengan rumus orbit
+cepat
+tepat
+OK / Reset
+Simpan
+Beban
+Pengocokan
+Soal! Selamat!
+Goto Sejarah
+Directional
+Padat
+Video ini tidak didukung oleh decoder video saat, klik &#39;YES&#39; untuk menginstal decoder, klik &#39;NO&#39; untuk mengkonversi video ini, klik &#39;Batal&#39; untuk melanjutkan permainan tanpa video.
+Gagal memuat file audio!
+Keyboard Style:

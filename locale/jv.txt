@@ -1,0 +1,134 @@
+Jawa
+Window Size:
+Volume:
+Ora bisa nemokake\nberkas game\nOra bisa muter
+Pilih songs kanggo muter,\npratayang PV utawa Demo
+Cari paket versi song Newest\ning Diva Online Map Wiki\nKlik kanggo goto kaca Wiki
+Ing Diva OL, sampeyan bisa muter karo\npemain liyane liwat Internet\nKlik kanggo rincian
+Config tata letak keyboard,\nukuran jendhela lan volume swara
+Ndeleng gambar Miku lan\nalbum foto
+Show Game Manual\nhttp://www.gamemastercn.com\nCopyright belongs kanggo Sega
+Mandhekake Game
+Kasedhiya ukuran jendhela:
+\nNgowahi volume\nefek swara\nPencet &lt;Ketik&gt; krungu swara hit
+\n\nReset kabeh setelan kanggo gawan
+Ngaso
+Terus
+Wiwiti maneh
+BACK TO MENU
+List kosong
+Adat Game
+Adat Game (dhaftar P)
+Mode Karir (ora kasedhiya)
+Multiplayer Mode (ora kasedhiya)
+Setelan
+CG Preview
+Game Pitulung
+Metu Game
+MENU
+Pengarang
+Gampang
+Normal
+Hard
+Ekstra
+Mati
+Star
+Kesulitan:%s\nStar Level:%d Star\n\nSkor paling:%.7d\nCombo Max:%.4d\nAsil paling apik:%s\nd>%d
+(Full Screen)
+Coba maneh
+Wangsul
+Direset menyang Default
+
+Language:
+Inggris
+Partikel efek:
+Ngganti basa katampil:\n
+Ngganti sistem partikel:\n0: ora partikel (paling cepet)\n1: buntut siji (cepet)\n2: buntut pindho (normal)\n3: buntut komèt (slowest)
+Pencet &lt;Ketik&gt; kanggo ngganti\n\n[Nyekeli mudhun kaping tombol\npeta kaping tombol\nkanggo tombol padha]
+Times New Roman
+Courier New
+Arial
+(N / A)
+Misstake
+Murah
+Standar
+Gedhe
+Sampurna
+Times New Roman
+OFF
+LOW
+Medium
+HIGH
+Pancing keyboard koleksi gagal, dhuwur-tliti input keyboard Jupuk ora kasedhiya.\r\nYen kabar firewall wis pop munggah, mangga ngidini!
+Tombol Capture
+Show fps
+Aktif
+Disabled
+OFF
+ON
+ON (OSD)
+Show fps\n(Frame per detik)\n1. Aja tuduhaké\n2. Show on judhul jendhela\n3. On-layar tampilan
+\n\n0: input tombol Normal WM_KEYDOWN\n1: koleksi Keyhook WH_KEYBOARD_LL\n2: Gunakake DirectInput
+CurrFPS =%.2f, AvgFPS =%.2f
+Gagal
+Ngaso otomatis
+Tau
+PlayOnly
+Tansah
+Cara ngaso otomatis:\n1. Aja ngaso\n2. Ing play-mode mung\n3. Alway ngaso
+Video Quality
+Convert video saka mp4 kanggo AVI\nkanggo nyimpen CPU\n0: MP4 (ora konversi)\n1: kualitas dhuwur AVI\n9: kualitas paling AVI
+Game UI
+\nPilih kulit UI:\nWaca gamedata * .txt\nRange saiki: 1 ~ 5\nNguripake &lt;CapsLock&gt; kanggo pratayang
+AVI Resolusi:\n1 ~ 3: 1024x576\n4 ~ 6: 640x360\n7 ~ 9: 480x270
+Adat
+Mangga pencet ↑ ↓ ← → △ × □ ○ ing urutan
+Pencet &lt;ESC&gt; kanggo mbatalake, &lt;Backspace&gt; kanggo tombol sadurungé
+Pencet &lt;Ketik&gt; kanggo konfirmasi, penet &lt;ESC&gt; kanggo mbatalake
+Font
+\nNgganti UI Font:\nTimes New Roman\nCourier New\nArial
+Space
+utawa
+Antialiasing
+Mode anti-aliasing:\n0: (OFF) lunak babak Strip (slowest)\n1: (ON) hardware paling (paling cepet)\n...\nN: (ON) hardware paling (slowest)\n\nPilihan saiki:\n
+Judgement
+Standar
+Ketat
+Damel cara tombol:\nStandar: tombol wrongly dipencet\nOra bakal mbatalake cathetan sabanjuré\nKetat: tombol wrongly dipencet\nBakal mbatalake cathetan sabanjuré\nyen ing wektu pigura
+(OFF)\nBanget alon ing drawing ngudani dawa
+Wigati Wektu tundha Nyetel
+Keyboard Wektu tundha rugi
+DelayCompen
+\nKeyboard Wektu tundha rugi\nUnit: ing milliseconds\nOra mengaruhi wektu tundha swara tombol\nPencet F5 / F6 sak game ora padha
+1. Sajrone game, nguripake CapsLock kanggo nyegah sedanipun &#39;. Nanging, yen HP wis musna ngisor 0, HP gauge bakal nguripake ireng, asil Final bakal tansah dadi &#39;kesalahan&#39;\n2. Sajrone game, penet F1 ~ F4 kanggo nyetel lan nyimpen cathetan wektu tundha kanggo peta saiki (waca calibration.inf ing folder sing song kang), penet F5 / F6 kanggo nyetel lan nyimpen keyboard wektu tundha rugi, penet PageUp / PageDown kanggo nyetel lan nyimpen volume song saiki\n3. Pencet / - kanggo nyetel tempo music (njaga Jarak padha), penet F11 / F12 kanggo nyetel Jarak music (njaga tempo padha), penet F7 / F8 kanggo nyetel kacepetan saka gerakan buntut\n4. Nalika PitchShiftDSP dipatèni, Jarak ora bisa diganti independen saka tempo, (mung tingkat sampling diganti), nanging kemungkinan music / wektu tundha iku paling tithik\n5. Kanggo ngganti alamat folder song, nambah baris ngisor config.ini, songPath = [my_song_folder_path] \\n6. folder song bisa ngemot sub-folder saiki supaya sampeyan bisa ngatur koleksi lagu\n7. Klik ing garis kemajuan kanggo ngupaya trek kanggo posisi sing, penet &lt;Tab&gt; kanggo ngupaya trek kanggo sadurunge posisi ngupaya-trek; Nanging, mengkono bakal kasil &#39;kesalahan&#39; kanggo skor Final
+Game Pitulung
+Volume
+Play Nelpon
+Buntut Nelpon
+Tansah Jarak
+Njaga Jarak padha\nnalika kacepetan puter maneh changes\n\nNyebabake wektu tundha music\ning komputer alon
+Jarak
+Tempo
+Semitone (s)
+SoundSystem
+Ngganti sistem swara:\nFMOD wis akurasi Temporal luwih\n aspek pitch-shift ora bisa ngluwihi 2\nBass wis aspek pitch-shift luwih akeh\n nanging akurasine Temporal mlarat
+Kotak DIVA kang
+Pitulung:\nF2: kedhip persagi terlantar\nF4: acak\nF5: Reset kotak\n1 ~ 9: nyorot Nth kotak njaba\n~: Mbatalake murup\nBackspace / Ngiwa: Pindhah Previous\nTengen: Pindhah Next\n / =: Murup lapisan njaba\n- / _: Murup lapisan utama\nPageUp: muter cepet\nPageDown: muter alon
+Ordo (NxNxN):
+Dim persagi Distant
+Tarik Mode
+Rollback kanggo dhisikan
+Ngatasi dening rumus orbit
+cepet
+akurat
+OK / Reset
+Simpen
+Mbukak
+Acak
+Ditanggulangi! Selamat!
+Goto History
+Pituduh
+Ngalangi
+Video iki ora didhukung dening decoder video saiki, klik &#39;YES&#39; kanggo nginstal decoder, klik &#39;NO&#39; Ngonversi video iki, klik &#39;Batal&#39; kanggo terus game tanpa video.
+Gagal kanggo mbukak file audio!
+Keyboard Gaya:

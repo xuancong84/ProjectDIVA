@@ -1,0 +1,45 @@
+#include "windows.h"
+#include "dsp.h"
+
+1000 DIALOG DISCARDABLE  0, 0, 135, 226
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "BASS_FX dsp fx in action"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "click here to open a file && play it...",ID_OPEN,0,0,
+                    135,20
+    CONTROL         "Peaking Equalizer",IDC_CHKEQ,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,5,20,125,15
+    CONTROL         "Phaser",IDC_CHKPHS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,5,95,125,10
+    CONTROL         "Slider1",IDC_DRYMIX,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,40,110,95,12
+    CONTROL         "Slider1",IDC_WETMIX,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,40,125,95,12
+    CONTROL         "Slider1",IDC_FEEDBACK,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,40,140,95,12
+    CONTROL         "Slider1",IDC_RATE,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,40,155,95,12
+    CONTROL         "Slider1",IDC_RANGE,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,40,170,95,12
+    CONTROL         "Slider1",IDC_FREQ,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,40,185,95,12
+    CONTROL         "Slider1",IDC_DXRATE,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,0,210,135,12
+    CTEXT           "125 hz",IDC_STATIC,10,80,22,8
+    CTEXT           "1 khz",IDC_STATIC,60,80,18,8
+    CTEXT           "8 khz",IDC_STATIC,105,80,18,8
+    CTEXT           "DirectX Samplerate = 44100Hz",IDC_SDXRATE,0,200,135,8
+    CTEXT           "DryMix",IDC_STATIC,5,110,30,8
+    CTEXT           "WetMix",IDC_STATIC,5,125,30,8
+    CTEXT           "Feedback",IDC_STATIC,5,140,31,8
+    CTEXT           "Rate",IDC_STATIC,5,155,31,8
+    CTEXT           "Range",IDC_STATIC,5,170,31,8
+    CTEXT           "Freq",IDC_STATIC,5,185,31,8
+    CONTROL         "Slider1",IDC_SLDEQ1,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | WS_TABSTOP,7,36,30,43
+    CONTROL         "Slider1",IDC_SLDEQ2,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | WS_TABSTOP,53,36,30,43
+    CONTROL         "Slider1",IDC_SLDEQ3,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | WS_TABSTOP,97,36,30,43
+END
