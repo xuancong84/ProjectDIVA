@@ -125,6 +125,7 @@ public:
 	LONGLONG nowTime;
 	double tempo;
 	double speed_factor, tail_speed_factor;
+	int speed_factor_int;
 	NoteMana():key_queue(CircularQueue<key_event>(63)),unit(CircularQueue<Unit>(63)) {}//
 	void SetNew();
 	void Init() {}

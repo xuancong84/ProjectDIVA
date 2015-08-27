@@ -780,7 +780,7 @@ void NoteMana::SetTimePosi(int framePos)
 void NoteMana::SetNew()
 {
 	singleTime = nowTime = 0;
-	speed_factor = tail_speed_factor = 1;
+	speed_factor = tail_speed_factor = speed_factor_int = 1;
 	Clear();
 }
 void NoteMana::Draw(int phase)
@@ -1782,15 +1782,15 @@ void GameCore::ChangeMusicVolume(double deltaVolumeExp)
 }
 void GameCore::ChangePlaySpeed(double deltaExp, int option)
 {
-	base::set_speed_factor = (deltaExp==0?1.0:(_notemana.speed_factor*pow(2.0, deltaExp)));
+	_notemana.speed_factor_int = (int)(deltaExp+0.5);
+	base::set_speed_factor = (deltaExp==0?1.0:(_notemana.speed_factor*pow(2.0, deltaExp/12.0)));
 	to_integer_point(base::set_speed_factor);
 	if(!(option&1)){
 		char msg[128];
 		sprintf(msg,"%s : x%.4g", StringTable(105).c_str(), base::set_speed_factor);
 		ShowMessage(msg,1,0,32);
-	}
-	if(GAMEDATA.gamemode==GAME_MODE_NORMAL)
 		numberMana.score_state |= 2;
+	}
 }
 void GameCore::ChangePitch(double deltaExp)
 {
@@ -1847,14 +1847,14 @@ void GameCore::OnKeyEvent(UINT nChar, bool bKeyDown)
 
 		case VK_SHIFT:		if(GAMEDATA.combo_draw>=STARLEVEL){
 								GAMEDATA.combo_draw=0;
-								ChangePlaySpeed(+1.0/6.0, 1);
+								ChangePlaySpeed(+2.0, 1);
 							}
 							break;
 		case VK_OEM_PLUS:
-		case VK_ADD:		ChangePlaySpeed(+1.0/12.0);							break;
+		case VK_ADD:		ChangePlaySpeed(+1.0);							break;
 		case '0':			ChangePlaySpeed(0,1);	ChangePitch(0);				break;
 		case VK_OEM_MINUS:
-		case VK_SUBTRACT:	ChangePlaySpeed(-1.0/12.0);							break;
+		case VK_SUBTRACT:	ChangePlaySpeed(-1.0);							break;
 		case VK_TAB:		SetTimePosi(prev_seektrack_percent);				break;
 		}
 	}

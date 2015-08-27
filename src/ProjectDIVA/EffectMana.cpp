@@ -264,7 +264,7 @@ void NumberMana::DrawScore(int score)
 {
 	_nowScore = score;
 	numberMana.Draw(_nowDrawScore,score_rect,NumberStyle::SCORE,NumberDwFlags::DWFLAG_LEFT,score_color,score_inc,score_fill);
-	if(score_state&1)
+	if(score_state&3)
 		graphEngine.Draw(score_dash);
 }
 
