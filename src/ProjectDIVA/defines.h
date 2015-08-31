@@ -58,7 +58,7 @@ using namespace std;
 #define GAME_MODE_AUTO	1
 #define GAME_MODE_PV	2
 #define key_mapsN	4
-#define	optionsN	27
+#define	optionsN	28
 #define MAX_STRING_INDEX	256
 
 #define  InsideDrawRange(x,y) ( x>=0 && y>=0 && x<=480 && y<=272 )
@@ -107,12 +107,9 @@ string ToString(double num,const char *_Format);
 string printKey(UINT nChar);
 string printKeys(int key, int maxlen);
 
-extern const int g_windowSizesN;
-extern int g_windowSizes[][2];
 extern vector<string> g_StringTable;
 extern RECT g_defaultRect;
-extern const int cfg_menu_option_idN;
-extern int cfg_menu_option_id[];
+extern vector<int> cfg_menu_option_id;
 extern vector <string> g_button_symbols;
 extern char *key_map;
 extern GUIMessageBox *lock_msgbox;
@@ -148,11 +145,14 @@ public:
 	vector <string> fonts, fonts_utf8;
 	string font, font_utf8;
 
+	// windows size, fullscreen
+	vector <pair<int, int> > window_sizes;
+	int winWidth,winHeight;
+	int windowed;	// 0: fullscreen, 1: windowed
+
 	void Init();
 
 	float sndVolume;
-	int winWidth,winHeight;
-	bool windowed;
 	int soundVolume;
 	int GameKeyType; //1-PC 2-PSP 3-O2JAMPC 4-O2JAMPSP
 	int winSizeType; //1-480*272 2-720*408 3-960*544 4-desktop_resolution
@@ -187,6 +187,7 @@ public:
 	void ChangeLanguage(int type, bool bSave=true);
 	void ChangeSndVolume(int volume, bool bSave=true);
 	void ChangeWindowSize(int sizeType, bool bSave=true);
+	void ChangeFullScreen(int windowed, bool bSave = true);
 	void ChangeKeyHook(int bHook, bool bSave=true);
 	void ChangeFPSstatus(int state, bool bSave=true);
 	void ChangeOption(int state, bool bSave=true);
@@ -222,13 +223,14 @@ public:
 
 struct Option{
 	string	option_name;
+	int		string_table_id;	// if 0, not in option listbox
 	int		default_value;
 	int		min_val, max_val;
 	int		*pValue;
 	void	(SystemIni::*ChangeSettings)(int, bool);
 	void	(SystemIni::*EnterSettings)(int, bool);
 };
-extern Option *options;
+extern vector <Option> options;
 extern SystemIni systemIni;
 
 //#define systemIni SystemIni::GetInstance()

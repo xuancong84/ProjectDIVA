@@ -1104,6 +1104,7 @@ MainMenu::MainMenu()
 	InitSongLb();
 	songlb->text_index = 19;
 
+	// build main menu
 	back = new MainMenuBack();
 	mainDetail = new GUIStaticImage("main_menu_detail");
 	mainlb = new ListBox(MakeRect(0,0,0,0),"FUCKSHIT");
@@ -1126,25 +1127,14 @@ MainMenu::MainMenu()
 		mainDetailWords_index = 4;
 	MainMenuState = MAINST_MAIN;
 
+	// build config menu
 	configlb = new ListBox(MakeRect(0,0,0,0),"I love miku");
 	configlb->text_index = 23;
-	configlb->AddItem(41,1);
-	configlb->AddItem(133,1);
-	configlb->AddItem(1,1);
-	configlb->AddItem(2,1);
-	configlb->AddItem(43,1);
-	configlb->AddItem(78,1);
-	configlb->AddItem(80,1);
-	configlb->AddItem(62,1);
-	configlb->AddItem(73,1);
-	configlb->AddItem(63,1);
-	configlb->AddItem(87,1);
-	configlb->AddItem(91,1);
-	configlb->AddItem(93,1);
-	configlb->AddItem(100,1);
-	configlb->AddItem(107,1);
-	configlb->AddItem(112,1);
-	configlb->AddItem(39);
+	for (int x = 0; x < options.size(); ++x)
+		if (options[x].string_table_id){
+			configlb->AddItem(abs(options[x].string_table_id), options[x].string_table_id > 0 ? 1 : 0);
+			cfg_menu_option_id.push_back(x);
+		}
 	configlb->ReplaceItem(0,0);
 
 	cgmenu = new CGMenu();

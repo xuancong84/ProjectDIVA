@@ -285,24 +285,24 @@ void RefreshConfigDetail()
 		return;
 	case 2:
 		oss << StringTable(11);
-		for(int x=0; x<g_windowSizesN; x++){
-			oss << "\n" << g_windowSizes[x][0] << g_button_symbols[5] << g_windowSizes[x][1];
-		}
+		for(int x=0; x<systemIni.window_sizes.size(); x++)
+			oss << "\n" << systemIni.window_sizes[x].first << g_button_symbols[5] << systemIni.window_sizes[x].second;
 		oss << "\n" << GetSystemMetrics(SM_CXSCREEN) << g_button_symbols[5] << GetSystemMetrics(SM_CYSCREEN) << StringTable(36);
 		menu->configDetailWords_string = oss.str();
 		return;
-	case 3:	menu->configDetailWords_index = 12;	break;
-	case 4:	menu->configDetailWords_index = 45;	break;
-	case 5: menu->configDetailWords_index = systemIni.lowVideo?82:79;	break;
-	case 6: menu->configDetailWords_index = 81;	break;
-	case 7:	menu->configDetailWords_index = 70;	break;
-	case 8: menu->configDetailWords_index = 77;	break;
-	case 9:	menu->configDetailWords_index = 69;	break;
-	case 10:	// font
+	case 3:	menu->configDetailWords_index = 138;break;
+	case 4:	menu->configDetailWords_index = 12;	break;
+	case 5:	menu->configDetailWords_index = 45;	break;
+	case 6: menu->configDetailWords_index = systemIni.lowVideo?82:79;	break;
+	case 7: menu->configDetailWords_index = 81;	break;
+	case 8:	menu->configDetailWords_index = 70;	break;
+	case 9: menu->configDetailWords_index = 77;	break;
+	case 10:	menu->configDetailWords_index = 69;	break;
+	case 11:	// font
 		menu->configDetailWords_string = StringTable(88) + "\n"
 			+ getCenterText(systemIni.fonts_utf8, systemIni.fontIndex);
 		return;
-	case 11:
+	case 12:
 		systemIni.getAntiAliasingInfo();
 		oss << StringTable(92);
 		if(systemIni.antialiasing==0){
@@ -313,11 +313,11 @@ void RefreshConfigDetail()
 		}
 		menu->configDetailWords_string = oss.str();
 		return;
-	case 12:menu->configDetailWords_index = 96;		break;
-	case 13:menu->configDetailWords_index = 101;	break;
-	case 14:menu->configDetailWords_index = 108;	break;
-	case 15:menu->configDetailWords_index = 113;	break;
-	case 16:menu->configDetailWords_index = 13;		break;
+	case 13:menu->configDetailWords_index = 96;		break;
+	case 14:menu->configDetailWords_index = 101;	break;
+	case 15:menu->configDetailWords_index = 108;	break;
+	case 16:menu->configDetailWords_index = 113;	break;
+	case 17:menu->configDetailWords_index = 13;		break;
 	}
 	menu->configDetailWords_string.clear();
 }
@@ -329,24 +329,30 @@ void menu_configlb_RefreshDetail()
 	static int particle_text_ids[] = {57,58,59,60};
 	static int FPS_state_ids[] = {66,67,68};
 	static int pause_method_ids[] = {74,75,76};
+	static int full_screen[] = { 136, 137 };
+
+	ostringstream oss;
+	oss << window_rect.right << g_button_symbols[5] << window_rect.bottom;
+	string s_window_size = oss.str();
 
 	// set 2nd entry
 	menu->configlb->btns->GetButton(0)->text2_string = StringTable(0);
 	menu->configlb->btns->GetButton(1)->text2_string = KeyType[systemIni.GameKeyType];
-	menu->configlb->btns->GetButton(2)->text2_string = base::sWindowSize();
-	menu->configlb->btns->GetButton(3)->text2_string = ToString(systemIni.soundVolume) + "/10";
-	menu->configlb->btns->GetButton(4)->text2_string = StringTable(particle_text_ids[systemIni.particle]);
-	menu->configlb->btns->GetButton(5)->text2_string = ToString(systemIni.lowVideo);
-	menu->configlb->btns->GetButton(6)->text2_string = ToString(systemIni.dataSet);
-	menu->configlb->btns->GetButton(7)->text2_string = ToString(systemIni.keyHook);
-	menu->configlb->btns->GetButton(8)->text2_string = StringTable(pause_method_ids[systemIni.autoPause]);
-	menu->configlb->btns->GetButton(9)->text2_string = StringTable(FPS_state_ids[systemIni.showFPS]);
-	menu->configlb->btns->GetButton(10)->text2_string = systemIni.font_utf8;
-	menu->configlb->btns->GetButton(11)->text2_string = ToString(systemIni.antialiasing);
-	menu->configlb->btns->GetButton(12)->text2_string = StringTable(94+systemIni.judgement);
-	menu->configlb->btns->GetButton(13)->text2_string = ToString(systemIni.DelayCompen);
-	menu->configlb->btns->GetButton(14)->text2_string = StringTable(systemIni.KeepPitch?64:65);
-	menu->configlb->btns->GetButton(15)->text2_string = (systemIni.sound_system==0?"FMOD":"BASS");
+	menu->configlb->btns->GetButton(2)->text2_string = s_window_size;
+	menu->configlb->btns->GetButton(3)->text2_string = StringTable(full_screen[systemIni.windowed]);
+	menu->configlb->btns->GetButton(4)->text2_string = ToString(systemIni.soundVolume) + "/10";
+	menu->configlb->btns->GetButton(5)->text2_string = StringTable(particle_text_ids[systemIni.particle]);
+	menu->configlb->btns->GetButton(6)->text2_string = ToString(systemIni.lowVideo);
+	menu->configlb->btns->GetButton(7)->text2_string = ToString(systemIni.dataSet);
+	menu->configlb->btns->GetButton(8)->text2_string = ToString(systemIni.keyHook);
+	menu->configlb->btns->GetButton(9)->text2_string = StringTable(pause_method_ids[systemIni.autoPause]);
+	menu->configlb->btns->GetButton(10)->text2_string = StringTable(FPS_state_ids[systemIni.showFPS]);
+	menu->configlb->btns->GetButton(11)->text2_string = systemIni.font_utf8;
+	menu->configlb->btns->GetButton(12)->text2_string = ToString(systemIni.antialiasing);
+	menu->configlb->btns->GetButton(13)->text2_string = StringTable(94+systemIni.judgement);
+	menu->configlb->btns->GetButton(14)->text2_string = ToString(systemIni.DelayCompen);
+	menu->configlb->btns->GetButton(15)->text2_string = StringTable(systemIni.KeepPitch?64:65);
+	menu->configlb->btns->GetButton(16)->text2_string = (systemIni.sound_system==0?"FMOD":"BASS");
 
 	// key hook start failed
 	if(systemIni.keyHook==1 && !base::keyboard_thread_id)
@@ -354,7 +360,7 @@ void menu_configlb_RefreshDetail()
 }
 void menu_configlb_OnLeftRightClick(int id, int amount)
 {
-	if(id>=0 && id<cfg_menu_option_idN)
+	if(id>=0 && id<cfg_menu_option_id.size())
 	{
 		id = cfg_menu_option_id[id];
 		Option &option = options[id];

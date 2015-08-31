@@ -49,7 +49,7 @@ namespace base
 	void MainLoop();
 	int MsgLoop();
 
-	void ResizeWindow(int width=Width, int height=Height);
+	void ResizeWindow(int width=Width, int height=Height, bool windowed=false);
 	void MakeDrawRect(const fRECT &in_rect, float &left, float &top, float &right, float &bottom);
 	RECT MakeDrawRect(int left, int top, int right, int bottom);
 	fRECT MakeDrawRect(const fRECT &in_rect);
@@ -57,7 +57,6 @@ namespace base
 	void MakeDrawRect(float &x, float &y);
 	D3DXVECTOR2& MakeDrawRect(D3DXVECTOR2 &v);
 	RECT SetWindowRect(int width, int height, bool windowed);
-	string sWindowSize();
 	int GetAspectRatio( int width, int height );
 	fRECT FitWindowRect(fRECT srcRect, fRECT dstRect, bool bCenter);
 

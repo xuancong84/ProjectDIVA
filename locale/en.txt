@@ -34,7 +34,7 @@ Extra
 Die
 Star
 Difficulty:%s\nStar Level:%d Star\n\nBest score:%.7d\nCombo Max:%.4d\nBest result:%s\n# Times Passed:%d
-(Full Screen)
+Full Screen
 RETRY
 RETURN
 Reset to Default
@@ -134,3 +134,6 @@ Failed to load the audio file!
 Keyboard Style:
 DIVA Media Player
 Play Audio/Video Media\nCan change speed, pitch\nDIVA's Music Visualization
+Yes
+No
+\n\n\nFull-screen mode

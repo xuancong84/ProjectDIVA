@@ -211,27 +211,19 @@ namespace base
 		Device->SetRenderState(D3DRS_MULTISAMPLEANTIALIAS, d3dpp.MultiSampleType!=D3DMULTISAMPLE_NONE);
 		return true;
 	}
-	void ResizeWindow(int width, int height){
-		if(width==0 || height==0){
-			width = GetSystemMetrics(SM_CXSCREEN);
-			height = GetSystemMetrics(SM_CYSCREEN);
-			SetWindowRect(width,height,false);
-			d3dpp.Windowed = false;
-		}else{
-			RECT winrect = SetWindowRect(width,height,true);
-			AdjustWindowRectEx(&winrect,
-				GetWindowStyle(hwnd),
-				GetMenu(hwnd)!=NULL,
-				GetWindowExStyle(hwnd));
-			RECT rect;
-			GetWindowRect(hwnd,&rect);
-			SetWindowPos(hwnd,NULL,
-				rect.left,rect.top,
-				winrect.right-winrect.left,winrect.bottom-winrect.top,
-				SWP_SHOWWINDOW);
-			d3dpp.Windowed = true;
-		}
-
+	void ResizeWindow(int width, int height, bool windowed){
+		RECT winrect = SetWindowRect(width,height,true);
+		AdjustWindowRectEx(&winrect,
+			GetWindowStyle(hwnd),
+			GetMenu(hwnd)!=NULL,
+			GetWindowExStyle(hwnd));
+		RECT rect;
+		GetWindowRect(hwnd,&rect);
+		SetWindowPos(hwnd,NULL,
+			rect.left,rect.top,
+			winrect.right-winrect.left,winrect.bottom-winrect.top,
+			SWP_SHOWWINDOW);
+		d3dpp.Windowed = windowed;
 		d3dpp.BackBufferWidth = width;
 		d3dpp.BackBufferHeight = height;
 		//d3dpp.SwapEffect  = d3dpp.Windowed?D3DSWAPEFFECT_DISCARD:D3DSWAPEFFECT_COPY;
@@ -424,13 +416,6 @@ namespace base
 		return v;
 	}
 	//---------------------------------------------------------------------------------------
-
-	string sWindowSize(){
-		ostringstream oss;
-		oss << window_rect.right << g_button_symbols[5] << window_rect.bottom;
-		if(!systemIni.windowed)	oss << ' ' << StringTable(36);
-		return oss.str();
-	}
 
 	/* For future 3D rendering
 	void InitDevice()

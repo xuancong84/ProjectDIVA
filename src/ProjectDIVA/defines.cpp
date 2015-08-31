@@ -10,10 +10,8 @@
 
 SystemIni systemIni;
 
-// This is the standard 16:9 aspect ratio, 480x272 is not exactly 16:9
-// Window sizes: 0-480*270 1-720*405 2-1024*576 3-Fullscreen 4-Custom
-const int g_windowSizesN = 3;
-int g_windowSizes[g_windowSizesN+1][2] = {{480,270},{720,405},{1024,576},{0,0}};
+// Take note: 480x272 is not exactly 16:9
+// The default window size is the original 480x272, all objects are draw w.r.t. this resolution, rescaled
 RECT g_defaultRect = {0,0,480,272};
 
 // Language specific texts
@@ -401,20 +399,29 @@ int CALLBACK EnumFontsProc(LOGFONT *lplf, TEXTMETRIC *lptm, DWORD dwType, LPARAM
 	return 1;
 }
 
-Option *options = NULL;
-const int cfg_menu_option_idN = 17;
-int cfg_menu_option_id[cfg_menu_option_idN]={5,0,1,4,6,10,11,7,8,9,12,13,14,18,17,23,15};	// Add into 2nd last posi
+vector <Option> options;
+vector <int> cfg_menu_option_id;
 
 void SystemIni::Init()
 {
+	// Enumerate resolutions
+	DEVMODE devmode;
+	for (int x = 0; EnumDisplaySettings(NULL, x, &devmode) != FALSE; ++x){
+		pair<int, int> new_size = pair<int,int>(devmode.dmPelsWidth, devmode.dmPelsHeight);
+		if (window_sizes.empty() || window_sizes.back()!=new_size)
+			window_sizes.push_back(new_size);
+	}
+
 	// List locales
 	WIN32_FIND_DATA fd;
 	HANDLE hFind = FindFirstFile("locale\\*.txt", &fd);
 	locales.clear();
-	do{
+	while (hFind != INVALID_HANDLE_VALUE){
 		string fn = fd.cFileName;
-		locales.push_back(fn.substr(0, fn.size()-4));
-	}while(FindNextFile(hFind, &fd));
+		locales.push_back(fn.substr(0, fn.size() - 4));
+		if (!FindNextFile(hFind, &fd))
+			break;
+	}
 	FindClose(hFind);
 	int p_en	= find(locales.begin(), locales.end(), "en")-locales.begin();
 	int p_user	= find(locales.begin(), locales.end(), GetLocale())-locales.begin();
@@ -433,36 +440,38 @@ void SystemIni::Init()
 
 	// Config menu item information
 	static Option _options[optionsN]={
-		{"GameKeyType", 0, 0, 4, &GameKeyType, &SystemIni::ChangeGameKeyType, &SystemIni::EnterSetKey},
-		{"WindowSize", 1, 0, g_windowSizesN, &winSizeType, &SystemIni::ChangeWindowSize, &SystemIni::ChangeWindowSize},
-		{"WindowWidth", g_windowSizes[1][0], -1, -1, &winWidth},
-		{"WindowHeight", g_windowSizes[1][1], -1, -1, &winHeight},
-		{"SoundVolume", 5, 0, 10, &soundVolume, &SystemIni::ChangeSndVolume,&SystemIni::EnterSndVolume},
-		{"Language", p_user<locales.size()?p_user:p_en, 0, locales.size()-1, &language, &SystemIni::ChangeLanguage},
-		{"Particle", 3, 0, 3, &particle, &SystemIni::ChangeParticleSystem},
-		{"KeyHook", 2, 0, 2, &keyHook, &SystemIni::ChangeKeyHook},
-		{"AutoPause", 1, 0, 2, &autoPause, &SystemIni::ChangeAutoPause},
-		{"FPS", 0, 0, 2, &showFPS, &SystemIni::ChangeFPSstatus},
-		{"LowVideo", 0, 0, 9, &lowVideo, &SystemIni::ChangeOption},			// 10
-		{"DataSet", getMaxSkin(), 0, getMaxSkin(), &dataSet, &SystemIni::ChangeDataSet},
-		{"Font", p_font<fonts.size()?p_font:0, 0, fonts.size()-1, &fontIndex, &SystemIni::ChangeFont},
-		{"Antialiasing", 1, 0, 1, &antialiasing, &SystemIni::ChangeAntialiasing},
-		{"Judgement", 0, 0, 1, &judgement, &SystemIni::ChangeOption},
-		{"Reset", 0, 0, 0, &unused, NULL, &SystemIni::EnterReset},
-		{"GlobalAudioDelay", 0, -1000, 1000, &GlobalAudioDelay},
-		{"PitchShiftDSP", 0, 0, 1, &KeepPitch, &SystemIni::ChangeOption},
-		{"DelayCompen", 0, 0, 100, &DelayCompen, &SystemIni::ChangeDelayCompen},
-		{"GameLevel", 1, 0, GAME_LEVEL_MAX-1, &game_level, &SystemIni::ChangeOption},
-		{"AudioDSPBufferSize", 1024, 256, 2048, &AudioDSPBufferSize},		// 20
-		{"AudioDSPBufferCount", 2, 2, 4, &AudioDSPBufferCount},
-		{"FMOD_DSP_FFT_WINDOW", 1024, 64, 65536, &FMOD_DSP_FFT_WINDOW},
-		{"SoundSystem", 0, 0, 1, &sound_system, &SystemIni::ChangeSoundSystem},
-		{"BASS_ATTRIB_TEMPO_OPTION_SEQUENCE_MS", 20, 41, 164, &BASS_ATTRIB_TEMPO_OPTION_SEQUENCE_MS},
-		{"BASS_ATTRIB_TEMPO_OPTION_SEEKWINDOW_MS", 10, 14, 56, &BASS_ATTRIB_TEMPO_OPTION_SEEKWINDOW_MS},
-		{"BASS_ATTRIB_TEMPO_OPTION_OVERLAP_MS", 10, 4, 16, &BASS_ATTRIB_TEMPO_OPTION_OVERLAP_MS},
+		{"Language", 41, p_user<locales.size()?p_user:p_en, 0, locales.size()-1, &language, &SystemIni::ChangeLanguage},
+		{"GameKeyType", 133, 0, 0, 4, &GameKeyType, &SystemIni::ChangeGameKeyType, &SystemIni::EnterSetKey},
+		{"WindowSize", 1, window_sizes.size(), 0, window_sizes.size(), &winSizeType, &SystemIni::ChangeWindowSize, &SystemIni::ChangeWindowSize },
+		{"WindowWidth", 0, g_defaultRect.right, -1, -1, &winWidth},
+		{"WindowHeight", 0, g_defaultRect.bottom, -1, -1, &winHeight},
+		{"FullScreen", 36, 1, 0, 1, &windowed, &SystemIni::ChangeFullScreen },
+		{"SoundVolume", 2, 5, 0, 10, &soundVolume, &SystemIni::ChangeSndVolume,&SystemIni::EnterSndVolume},
+		{"Particle", 43, 3, 0, 3, &particle, &SystemIni::ChangeParticleSystem},
+		{"LowVideo", 78, 0, 0, 9, &lowVideo, &SystemIni::ChangeOption},			// 10
+		{"DataSet", 80, getMaxSkin(), 0, getMaxSkin(), &dataSet, &SystemIni::ChangeDataSet},
+		{"GameLevel", 0, 1, 0, GAME_LEVEL_MAX-1, &game_level, &SystemIni::ChangeOption},
+		{"KeyHook", 62, 2, 0, 2, &keyHook, &SystemIni::ChangeKeyHook},
+		{"AutoPause", 73, 1, 0, 2, &autoPause, &SystemIni::ChangeAutoPause},
+		{"FPS", 63, 0, 0, 2, &showFPS, &SystemIni::ChangeFPSstatus},
+		{"Font", 87, p_font<fonts.size()?p_font:0, 0, fonts.size()-1, &fontIndex, &SystemIni::ChangeFont},
+		{"Antialiasing", 91, 1, 0, 1, &antialiasing, &SystemIni::ChangeAntialiasing},
+		{"Judgement", 93, 0, 0, 1, &judgement, &SystemIni::ChangeOption},
+		{"DelayCompen", 100, 0, 0, 100, &DelayCompen, &SystemIni::ChangeDelayCompen},
+		{"PitchShiftDSP", 107, 0, 0, 1, &KeepPitch, &SystemIni::ChangeOption},
+		{"SoundSystem", 112, 0, 0, 1, &sound_system, &SystemIni::ChangeSoundSystem},
+		{"Reset", -39, 0, 0, 0, &unused, NULL, &SystemIni::EnterReset},
+		{"GlobalAudioDelay", 0, 0, -1000, 1000, &GlobalAudioDelay},
+		{"AudioDSPBufferSize", 0, 1024, 256, 2048, &AudioDSPBufferSize},		// 20
+		{"AudioDSPBufferCount", 0, 2, 2, 4, &AudioDSPBufferCount},
+		{"FMOD_DSP_FFT_WINDOW", 0, 1024, 64, 65536, &FMOD_DSP_FFT_WINDOW},
+		{"BASS_ATTRIB_TEMPO_OPTION_SEQUENCE_MS", 0, 20, 41, 164, &BASS_ATTRIB_TEMPO_OPTION_SEQUENCE_MS},
+		{"BASS_ATTRIB_TEMPO_OPTION_SEEKWINDOW_MS", 0, 10, 14, 56, &BASS_ATTRIB_TEMPO_OPTION_SEEKWINDOW_MS},
+		{"BASS_ATTRIB_TEMPO_OPTION_OVERLAP_MS", 0, 10, 4, 16, &BASS_ATTRIB_TEMPO_OPTION_OVERLAP_MS},
 	};
-	if(!options){
-		options = _options;
+	if(options.empty()){
+		for (int x = 0; x<sizeof(_options) / sizeof(Option); ++x)
+			options.push_back(_options[x]);
 		SetDefaultValue();
 	}
 	if(!LoadIniFile())
@@ -607,11 +616,16 @@ void SystemIni::EnterSndVolume(int volume, bool bSave)
 }
 void SystemIni::ChangeWindowSize(int sizeType, bool bSave)
 {
-	winWidth = g_windowSizes[sizeType][0];
-	winHeight = g_windowSizes[sizeType][1];
-	windowed = (sizeType!=g_windowSizesN);
+	winWidth = window_sizes[sizeType].first;
+	winHeight = window_sizes[sizeType].second;
 	winSizeType = sizeType;
-	base::ResizeWindow(winWidth, winHeight);
+	base::ResizeWindow(winWidth, winHeight, windowed);
+	if(bSave) SaveIniFile();
+}
+void SystemIni::ChangeFullScreen(int _windowed, bool bSave)
+{
+	windowed = _windowed;
+	base::ResizeWindow(winWidth, winHeight, windowed);
 	if(bSave) SaveIniFile();
 }
 void SystemIni::ChangeAntialiasing(int sizeType, bool bSave)
@@ -663,7 +677,7 @@ void SystemIni::EnterReset(int unused, bool bSave)
 {
 	soundEngine->PlaySound("gamedata\\Select.wav",systemIni.sndVolume);
 	ChangeToDefault();
-	base::ResizeWindow(systemIni.winWidth,systemIni.winHeight);
+	base::ResizeWindow(winWidth, winHeight, windowed);
 	if(bSave) SaveIniFile();
 }
 
@@ -909,12 +923,12 @@ bool SystemIni::LoadIniFile()
 		}
 	}
 
-	// Find window size type, support custom window size
-	if( winSizeType <= g_windowSizesN ){
-		winWidth = g_windowSizes[winSizeType][0];
-		winHeight = g_windowSizes[winSizeType][1];
-	}
-	windowed = (winSizeType!=g_windowSizesN);
+	// Find the position of the current resolution in resolution list, if not found, add it into the list to support custom window size
+	for (int winSizeType = 0; winSizeType < window_sizes.size(); ++winSizeType)
+		if (window_sizes[winSizeType].first == winWidth && window_sizes[winSizeType].second == winHeight)
+			break;
+	if( winSizeType == window_sizes.size() )
+		window_sizes.push_back(pair<int, int>(winWidth, winHeight));
 
 	return (n_options_set>=n_options_need);
 }

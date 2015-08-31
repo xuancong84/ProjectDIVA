@@ -10,9 +10,26 @@ Current version is 3.5.1:
 3. added multiple font support.
 
 
-Programming guide:
+For game players:
+- copy everything except the ./src folder
+- copy music packs from the Internet elsewhere
+
+
+For developers:
+- copy everything including the ./src folder
 - please set library and include paths for bass, dxsdk and FMOD-sound-system in ./src/external folder.
 - all commits without any description are minor/trivial modifications such as editing description, fixing spelling errors, etc.
+
+
+Key programming techniques include how to:
+- play audio (using bass library and FMOD-sound-system) and video (using windows media library) at arbituary speed while maintaining synchrony.
+- use DirectDraw to draw point sprite, perform scaling
+- use Direct3D to draw objects, lighting, perform object-to-screen, screen-to-object coordinate conversion, ray-triangle intersection detection
+- use DirectX to draw UTF-8 characters, manipulate UTF-8 strings and filenames in Win32 API
+- enumerate display resolutions and change display resolution
+- enumerate system font and change DirectX font
+- enumerate system locales
+- use Window keyhook to capture keyboard input
 
 
 Acknowledgement:
